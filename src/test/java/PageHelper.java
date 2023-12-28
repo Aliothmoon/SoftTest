@@ -60,4 +60,5 @@ public class PageHelper {
     public static final SelenideElement FL_CN_BTN3 = $("body > blockquote > center > table:nth-child(7) > tbody > tr > td > form > input[type=image]");
     public static final SelenideElement CANCEL_ALL = $("body > blockquote > form > center > table:nth-child(2) > tbody > tr > td:nth-child(2) > input[type=image]");
     public static final SelenideElement CANCEL_CHECKED = $("body > blockquote > form > center > table:nth-child(2) > tbody > tr > td:nth-child(1) > input[type=image]");
+    public static final SelenideElement SIGN_OFF = $("body > center > center > a:nth-child(7) > img");
 }

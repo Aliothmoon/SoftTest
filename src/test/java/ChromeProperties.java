@@ -24,6 +24,6 @@ public class ChromeProperties {
 
     static {
         // 设置浏览器运行完不关闭
-//        Configuration.holdBrowserOpen = true;
+        Configuration.holdBrowserOpen = true;
     }
 }
