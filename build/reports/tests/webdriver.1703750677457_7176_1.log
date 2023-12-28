@@ -1,0 +1,152 @@
+[1703750677.763][INFO]: Starting ChromeDriver 120.0.6099.109 (3419140ab665596f21b385ce136419fde0924272-refs/branch-heads/6099@{#1483}) on port 28144
+[1703750677.763][INFO]: Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+[1703750677.907][INFO]: [4c0f4c554f357efb271d68b5dd1a00a7] COMMAND InitSession {
+   "capabilities": {
+      "firstMatch": [ {
+         "acceptInsecureCerts": true,
+         "browserName": "chrome",
+         "goog:chromeOptions": {
+            "args": [ "--proxy-bypass-list=\u003C-loopback>", "--disable-dev-shm-usage", "--window-size=1366,768" ],
+            "excludeSwitches": [ "enable-automation", "load-extension" ],
+            "extensions": [  ],
+            "prefs": {
+               "credentials_enable_service": false,
+               "download.default_directory": "E:\\Projektes\\Java\\H7\\build\\downloads\\1703750677424_7176_1",
+               "plugins.always_open_pdf_externally": true,
+               "profile.default_content_setting_values.automatic_downloads": 1,
+               "safebrowsing.enabled": true
+            }
+         },
+         "pageLoadStrategy": "normal",
+         "unhandledPromptBehavior": "accept"
+      } ]
+   }
+}
+[1703750677.908][INFO]: Browser search. Trying... E:\Merge\2023下\SoftTest\H7\env\chromedriver-win64\chrome.exe
+[1703750677.908][INFO]: Browser search. Trying... E:\Merge\2023下\SoftTest\H7\env\chromedriver-win64\chrome.exe
+[1703750677.908][INFO]: Browser search. Trying... E:\Merge\2023下\SoftTest\H7\env\chromedriver-win64\chromium.exe
+[1703750677.911][INFO]: Browser search. Trying... C:\Users\Heimweh\AppData\Local\Google\Chrome\Application\chrome.exe
+[1703750677.911][INFO]: Browser search. Trying... C:\Program Files\Google\Chrome\Application\chrome.exe
+[1703750677.911][INFO]: Browser search. Found at  C:\Program Files\Google\Chrome\Application\chrome.exe
+[1703750677.913][INFO]: Populating Preferences file: {
+   "alternate_error_pages": {
+      "enabled": false
+   },
+   "autofill": {
+      "enabled": false
+   },
+   "browser": {
+      "check_default_browser": false
+   },
+   "credentials_enable_service": false,
+   "distribution": {
+      "import_bookmarks": false,
+      "import_history": false,
+      "import_search_engine": false,
+      "make_chrome_default_for_user": false,
+      "skip_first_run_ui": true
+   },
+   "dns_prefetching": {
+      "enabled": false
+   },
+   "download": {
+      "default_directory": "E:\\Projektes\\Java\\H7\\build\\downloads\\1703750677424_7176_1"
+   },
+   "plugins": {
+      "always_open_pdf_externally": true
+   },
+   "profile": {
+      "content_settings": {
+         "pattern_pairs": {
+            "https://*,*": {
+               "media-stream": {
+                  "audio": "Default",
+                  "video": "Default"
+               }
+            }
+         }
+      },
+      "default_content_setting_values": {
+         "automatic_downloads": 1,
+         "geolocation": 1
+      },
+      "default_content_settings": {
+         "geolocation": 1,
+         "mouselock": 1,
+         "notifications": 1,
+         "popups": 1,
+         "ppapi-broker": 1
+      },
+      "password_manager_enabled": false
+   },
+   "safebrowsing": {
+      "enabled": true
+   },
+   "search": {
+      "suggest_enabled": false
+   },
+   "translate": {
+      "enabled": false
+   }
+}
+[1703750677.913][INFO]: Populating Local State file: {
+   "background_mode": {
+      "enabled": false
+   },
+   "ssl": {
+      "rev_checking": {
+         "enabled": false
+      }
+   }
+}
+[1703750677.914][INFO]: ChromeDriver supports communication with Chrome via pipes. This is more reliable and more secure.
+[1703750677.914][INFO]: Use the --remote-debugging-pipe Chrome switch instead of the default --remote-debugging-port to enable this communication mode.
+[1703750677.916][INFO]: Launching chrome: "C:\Program Files\Google\Chrome\Application\chrome.exe" --allow-pre-commit-input --disable-background-networking --disable-backgrounding-occluded-windows --disable-client-side-phishing-detection --disable-default-apps --disable-dev-shm-usage --disable-hang-monitor --disable-popup-blocking --disable-prompt-on-repost --disable-sync --enable-logging --ignore-certificate-errors --log-level=0 --no-first-run --no-service-autorun --password-store=basic --proxy-bypass-list=<-loopback> --remote-debugging-port=0 --test-type=webdriver --use-mock-keychain --user-data-dir="C:\Users\Heimweh\AppData\Local\Temp\scoped_dir31064_523673428" --window-size=1366,768 data:,
+[1703750678.492][INFO]: resolved localhost to ["::1","127.0.0.1"]
+[1703750678.495][INFO]: [4c0f4c554f357efb271d68b5dd1a00a7] RESPONSE InitSession {
+   "capabilities": {
+      "acceptInsecureCerts": true,
+      "browserName": "chrome",
+      "browserVersion": "120.0.6099.130",
+      "chrome": {
+         "chromedriverVersion": "120.0.6099.109 (3419140ab665596f21b385ce136419fde0924272-refs/branch-heads/6099@{#1483})",
+         "userDataDir": "C:\\Users\\Heimweh\\AppData\\Local\\Temp\\scoped_dir31064_523673428"
+      },
+      "fedcm:accounts": true,
+      "goog:chromeOptions": {
+         "debuggerAddress": "localhost:55466"
+      },
+      "networkConnectionEnabled": false,
+      "pageLoadStrategy": "normal",
+      "platformName": "windows",
+      "proxy": {
+      },
+      "setWindowRect": true,
+      "strictFileInteractability": false,
+      "timeouts": {
+         "implicit": 0,
+         "pageLoad": 300000,
+         "script": 30000
+      },
+      "unhandledPromptBehavior": "accept",
+      "webauthn:extension:credBlob": true,
+      "webauthn:extension:largeBlob": true,
+      "webauthn:extension:minPinLength": true,
+      "webauthn:extension:prf": true,
+      "webauthn:virtualAuthenticators": true
+   },
+   "sessionId": "4c0f4c554f357efb271d68b5dd1a00a7"
+}
+[1703750678.600][INFO]: [4c0f4c554f357efb271d68b5dd1a00a7] COMMAND SetTimeouts {
+   "pageLoad": 30000
+}
+[1703750678.600][INFO]: [4c0f4c554f357efb271d68b5dd1a00a7] RESPONSE SetTimeouts
+[1703750678.618][INFO]: [4c0f4c554f357efb271d68b5dd1a00a7] COMMAND Navigate {
+   "url": "http://192.168.2.169:1080/webtours/"
+}
+[1703750678.618][INFO]: Waiting for pending navigations...
+[1703750678.620][INFO]: Done waiting for pending navigations. Status: ok
+[1703750699.716][INFO]: Waiting for pending navigations...
+[1703750699.717][INFO]: Done waiting for pending navigations. Status: ok
+[1703750699.717][INFO]: [4c0f4c554f357efb271d68b5dd1a00a7] RESPONSE Navigate ERROR unknown error: net::ERR_CONNECTION_TIMED_OUT
+  (Session info: chrome=120.0.6099.130)

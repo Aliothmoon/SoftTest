@@ -1,0 +1,256 @@
+[1703743991.849][INFO]: Starting ChromeDriver 120.0.6099.109 (3419140ab665596f21b385ce136419fde0924272-refs/branch-heads/6099@{#1483}) on port 28020
+[1703743991.849][INFO]: Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+[1703743991.993][INFO]: [a5a3c4bc36c84ac5c62bd853f887bf97] COMMAND InitSession {
+   "capabilities": {
+      "firstMatch": [ {
+         "acceptInsecureCerts": true,
+         "browserName": "chrome",
+         "goog:chromeOptions": {
+            "args": [ "--proxy-bypass-list=\u003C-loopback>", "--disable-dev-shm-usage", "--window-size=1366,768" ],
+            "excludeSwitches": [ "enable-automation", "load-extension" ],
+            "extensions": [  ],
+            "prefs": {
+               "credentials_enable_service": false,
+               "download.default_directory": "E:\\Projektes\\Java\\H7\\build\\downloads\\1703743991521_13304_1",
+               "plugins.always_open_pdf_externally": true,
+               "profile.default_content_setting_values.automatic_downloads": 1,
+               "safebrowsing.enabled": true
+            }
+         },
+         "pageLoadStrategy": "normal",
+         "unhandledPromptBehavior": "accept"
+      } ]
+   }
+}
+[1703743991.994][INFO]: Browser search. Trying... E:\Merge\2023下\SoftTest\H7\env\chromedriver-win64\chrome.exe
+[1703743991.994][INFO]: Browser search. Trying... E:\Merge\2023下\SoftTest\H7\env\chromedriver-win64\chrome.exe
+[1703743991.994][INFO]: Browser search. Trying... E:\Merge\2023下\SoftTest\H7\env\chromedriver-win64\chromium.exe
+[1703743991.997][INFO]: Browser search. Trying... C:\Users\Heimweh\AppData\Local\Google\Chrome\Application\chrome.exe
+[1703743991.998][INFO]: Browser search. Trying... C:\Program Files\Google\Chrome\Application\chrome.exe
+[1703743991.998][INFO]: Browser search. Found at  C:\Program Files\Google\Chrome\Application\chrome.exe
+[1703743992.000][INFO]: Populating Preferences file: {
+   "alternate_error_pages": {
+      "enabled": false
+   },
+   "autofill": {
+      "enabled": false
+   },
+   "browser": {
+      "check_default_browser": false
+   },
+   "credentials_enable_service": false,
+   "distribution": {
+      "import_bookmarks": false,
+      "import_history": false,
+      "import_search_engine": false,
+      "make_chrome_default_for_user": false,
+      "skip_first_run_ui": true
+   },
+   "dns_prefetching": {
+      "enabled": false
+   },
+   "download": {
+      "default_directory": "E:\\Projektes\\Java\\H7\\build\\downloads\\1703743991521_13304_1"
+   },
+   "plugins": {
+      "always_open_pdf_externally": true
+   },
+   "profile": {
+      "content_settings": {
+         "pattern_pairs": {
+            "https://*,*": {
+               "media-stream": {
+                  "audio": "Default",
+                  "video": "Default"
+               }
+            }
+         }
+      },
+      "default_content_setting_values": {
+         "automatic_downloads": 1,
+         "geolocation": 1
+      },
+      "default_content_settings": {
+         "geolocation": 1,
+         "mouselock": 1,
+         "notifications": 1,
+         "popups": 1,
+         "ppapi-broker": 1
+      },
+      "password_manager_enabled": false
+   },
+   "safebrowsing": {
+      "enabled": true
+   },
+   "search": {
+      "suggest_enabled": false
+   },
+   "translate": {
+      "enabled": false
+   }
+}
+[1703743992.000][INFO]: Populating Local State file: {
+   "background_mode": {
+      "enabled": false
+   },
+   "ssl": {
+      "rev_checking": {
+         "enabled": false
+      }
+   }
+}
+[1703743992.001][INFO]: ChromeDriver supports communication with Chrome via pipes. This is more reliable and more secure.
+[1703743992.001][INFO]: Use the --remote-debugging-pipe Chrome switch instead of the default --remote-debugging-port to enable this communication mode.
+[1703743992.003][INFO]: Launching chrome: "C:\Program Files\Google\Chrome\Application\chrome.exe" --allow-pre-commit-input --disable-background-networking --disable-backgrounding-occluded-windows --disable-client-side-phishing-detection --disable-default-apps --disable-dev-shm-usage --disable-hang-monitor --disable-popup-blocking --disable-prompt-on-repost --disable-sync --enable-logging --ignore-certificate-errors --log-level=0 --no-first-run --no-service-autorun --password-store=basic --proxy-bypass-list=<-loopback> --remote-debugging-port=0 --test-type=webdriver --use-mock-keychain --user-data-dir="C:\Users\Heimweh\AppData\Local\Temp\scoped_dir29180_1099857329" --window-size=1366,768 data:,
+[1703743992.531][INFO]: resolved localhost to ["::1","127.0.0.1"]
+[1703743992.534][INFO]: [a5a3c4bc36c84ac5c62bd853f887bf97] RESPONSE InitSession {
+   "capabilities": {
+      "acceptInsecureCerts": true,
+      "browserName": "chrome",
+      "browserVersion": "120.0.6099.130",
+      "chrome": {
+         "chromedriverVersion": "120.0.6099.109 (3419140ab665596f21b385ce136419fde0924272-refs/branch-heads/6099@{#1483})",
+         "userDataDir": "C:\\Users\\Heimweh\\AppData\\Local\\Temp\\scoped_dir29180_1099857329"
+      },
+      "fedcm:accounts": true,
+      "goog:chromeOptions": {
+         "debuggerAddress": "localhost:56814"
+      },
+      "networkConnectionEnabled": false,
+      "pageLoadStrategy": "normal",
+      "platformName": "windows",
+      "proxy": {
+      },
+      "setWindowRect": true,
+      "strictFileInteractability": false,
+      "timeouts": {
+         "implicit": 0,
+         "pageLoad": 300000,
+         "script": 30000
+      },
+      "unhandledPromptBehavior": "accept",
+      "webauthn:extension:credBlob": true,
+      "webauthn:extension:largeBlob": true,
+      "webauthn:extension:minPinLength": true,
+      "webauthn:extension:prf": true,
+      "webauthn:virtualAuthenticators": true
+   },
+   "sessionId": "a5a3c4bc36c84ac5c62bd853f887bf97"
+}
+[1703743992.641][INFO]: [a5a3c4bc36c84ac5c62bd853f887bf97] COMMAND SetTimeouts {
+   "pageLoad": 30000
+}
+[1703743992.641][INFO]: [a5a3c4bc36c84ac5c62bd853f887bf97] RESPONSE SetTimeouts
+[1703743992.657][INFO]: [a5a3c4bc36c84ac5c62bd853f887bf97] COMMAND Navigate {
+   "url": "http://192.168.2.169:1080/webtours/"
+}
+[1703743992.657][INFO]: Waiting for pending navigations...
+[1703743992.659][INFO]: Done waiting for pending navigations. Status: ok
+[1703743992.722][INFO]: Waiting for pending navigations...
+[1703743992.924][INFO]: Done waiting for pending navigations. Status: ok
+[1703743992.924][INFO]: [a5a3c4bc36c84ac5c62bd853f887bf97] RESPONSE Navigate
+[1703743992.946][INFO]: [a5a3c4bc36c84ac5c62bd853f887bf97] COMMAND GetTitle {
+}
+[1703743992.946][INFO]: Waiting for pending navigations...
+[1703743992.946][INFO]: Done waiting for pending navigations. Status: ok
+[1703743992.949][INFO]: Waiting for pending navigations...
+[1703743992.949][INFO]: Done waiting for pending navigations. Status: ok
+[1703743992.949][INFO]: [a5a3c4bc36c84ac5c62bd853f887bf97] RESPONSE GetTitle "Web Tours"
+[1703743992.952][INFO]: [a5a3c4bc36c84ac5c62bd853f887bf97] COMMAND Navigate {
+   "url": "http://192.168.2.169:1080/webtours/"
+}
+[1703743992.952][INFO]: Waiting for pending navigations...
+[1703743992.952][INFO]: Done waiting for pending navigations. Status: ok
+[1703743992.955][INFO]: Waiting for pending navigations...
+[1703743993.130][INFO]: Done waiting for pending navigations. Status: ok
+[1703743993.130][INFO]: [a5a3c4bc36c84ac5c62bd853f887bf97] RESPONSE Navigate
+[1703743993.135][INFO]: [a5a3c4bc36c84ac5c62bd853f887bf97] COMMAND GetTitle {
+}
+[1703743993.135][INFO]: Waiting for pending navigations...
+[1703743993.136][INFO]: Done waiting for pending navigations. Status: ok
+[1703743993.137][INFO]: Waiting for pending navigations...
+[1703743993.138][INFO]: Done waiting for pending navigations. Status: ok
+[1703743993.138][INFO]: [a5a3c4bc36c84ac5c62bd853f887bf97] RESPONSE GetTitle "Web Tours"
+[1703743993.140][INFO]: [a5a3c4bc36c84ac5c62bd853f887bf97] COMMAND Navigate {
+   "url": "http://192.168.2.169:1080/webtours/"
+}
+[1703743993.140][INFO]: Waiting for pending navigations...
+[1703743993.140][INFO]: Done waiting for pending navigations. Status: ok
+[1703743993.143][INFO]: Waiting for pending navigations...
+[1703743993.334][INFO]: Done waiting for pending navigations. Status: ok
+[1703743993.334][INFO]: [a5a3c4bc36c84ac5c62bd853f887bf97] RESPONSE Navigate
+[1703743993.339][INFO]: [a5a3c4bc36c84ac5c62bd853f887bf97] COMMAND GetTitle {
+}
+[1703743993.339][INFO]: Waiting for pending navigations...
+[1703743993.339][INFO]: Done waiting for pending navigations. Status: ok
+[1703743993.341][INFO]: Waiting for pending navigations...
+[1703743993.341][INFO]: Done waiting for pending navigations. Status: ok
+[1703743993.341][INFO]: [a5a3c4bc36c84ac5c62bd853f887bf97] RESPONSE GetTitle "Web Tours"
+[1703743993.344][INFO]: [a5a3c4bc36c84ac5c62bd853f887bf97] COMMAND Navigate {
+   "url": "http://192.168.2.169:1080/webtours/"
+}
+[1703743993.344][INFO]: Waiting for pending navigations...
+[1703743993.345][INFO]: Done waiting for pending navigations. Status: ok
+[1703743993.347][INFO]: Waiting for pending navigations...
+[1703743993.534][INFO]: Done waiting for pending navigations. Status: ok
+[1703743993.534][INFO]: [a5a3c4bc36c84ac5c62bd853f887bf97] RESPONSE Navigate
+[1703743993.539][INFO]: [a5a3c4bc36c84ac5c62bd853f887bf97] COMMAND GetTitle {
+}
+[1703743993.539][INFO]: Waiting for pending navigations...
+[1703743993.539][INFO]: Done waiting for pending navigations. Status: ok
+[1703743993.541][INFO]: Waiting for pending navigations...
+[1703743993.541][INFO]: Done waiting for pending navigations. Status: ok
+[1703743993.541][INFO]: [a5a3c4bc36c84ac5c62bd853f887bf97] RESPONSE GetTitle "Web Tours"
+[1703743993.544][INFO]: [a5a3c4bc36c84ac5c62bd853f887bf97] COMMAND Navigate {
+   "url": "http://192.168.2.169:1080/webtours/"
+}
+[1703743993.544][INFO]: Waiting for pending navigations...
+[1703743993.544][INFO]: Done waiting for pending navigations. Status: ok
+[1703743993.547][INFO]: Waiting for pending navigations...
+[1703743993.695][INFO]: Done waiting for pending navigations. Status: ok
+[1703743993.695][INFO]: [a5a3c4bc36c84ac5c62bd853f887bf97] RESPONSE Navigate
+[1703743993.700][INFO]: [a5a3c4bc36c84ac5c62bd853f887bf97] COMMAND GetTitle {
+}
+[1703743993.700][INFO]: Waiting for pending navigations...
+[1703743993.700][INFO]: Done waiting for pending navigations. Status: ok
+[1703743993.702][INFO]: Waiting for pending navigations...
+[1703743993.702][INFO]: Done waiting for pending navigations. Status: ok
+[1703743993.702][INFO]: [a5a3c4bc36c84ac5c62bd853f887bf97] RESPONSE GetTitle "Web Tours"
+[1703743993.704][INFO]: [a5a3c4bc36c84ac5c62bd853f887bf97] COMMAND Navigate {
+   "url": "http://192.168.2.169:1080/webtours/"
+}
+[1703743993.704][INFO]: Waiting for pending navigations...
+[1703743993.705][INFO]: Done waiting for pending navigations. Status: ok
+[1703743993.707][INFO]: Waiting for pending navigations...
+[1703743993.880][INFO]: Done waiting for pending navigations. Status: ok
+[1703743993.880][INFO]: [a5a3c4bc36c84ac5c62bd853f887bf97] RESPONSE Navigate
+[1703743993.886][INFO]: [a5a3c4bc36c84ac5c62bd853f887bf97] COMMAND GetTitle {
+}
+[1703743993.886][INFO]: Waiting for pending navigations...
+[1703743993.886][INFO]: Done waiting for pending navigations. Status: ok
+[1703743993.888][INFO]: Waiting for pending navigations...
+[1703743993.888][INFO]: Done waiting for pending navigations. Status: ok
+[1703743993.888][INFO]: [a5a3c4bc36c84ac5c62bd853f887bf97] RESPONSE GetTitle "Web Tours"
+[1703743993.891][INFO]: [a5a3c4bc36c84ac5c62bd853f887bf97] COMMAND Navigate {
+   "url": "http://192.168.2.169:1080/webtours/"
+}
+[1703743993.891][INFO]: Waiting for pending navigations...
+[1703743993.891][INFO]: Done waiting for pending navigations. Status: ok
+[1703743993.893][INFO]: Waiting for pending navigations...
+[1703743994.069][INFO]: Done waiting for pending navigations. Status: ok
+[1703743994.069][INFO]: [a5a3c4bc36c84ac5c62bd853f887bf97] RESPONSE Navigate
+[1703743994.073][INFO]: [a5a3c4bc36c84ac5c62bd853f887bf97] COMMAND GetTitle {
+}
+[1703743994.073][INFO]: Waiting for pending navigations...
+[1703743994.073][INFO]: Done waiting for pending navigations. Status: ok
+[1703743994.075][INFO]: Waiting for pending navigations...
+[1703743994.076][INFO]: Done waiting for pending navigations. Status: ok
+[1703743994.076][INFO]: [a5a3c4bc36c84ac5c62bd853f887bf97] RESPONSE GetTitle "Web Tours"
+[1703743994.078][INFO]: [a5a3c4bc36c84ac5c62bd853f887bf97] COMMAND Navigate {
+   "url": "http://192.168.2.169:1080/webtours/"
+}
+[1703743994.078][INFO]: Waiting for pending navigations...
+[1703743994.079][INFO]: Done waiting for pending navigations. Status: ok
+[1703743994.081][INFO]: Waiting for pending navigations...
+[1703743994.257][INFO]: Done waiting for pending navigations. Status: ok
+[1703743994.257][INFO]: [a5a3c4bc36c84ac5c62bd853f887bf97] RESPONSE Navigate

@@ -1,0 +1,2072 @@
+[1703744846.490][INFO]: Starting ChromeDriver 120.0.6099.109 (3419140ab665596f21b385ce136419fde0924272-refs/branch-heads/6099@{#1483}) on port 21554
+[1703744846.490][INFO]: Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+[1703744846.627][INFO]: [3d77375218d99c902314e178a79bcf81] COMMAND InitSession {
+   "capabilities": {
+      "firstMatch": [ {
+         "acceptInsecureCerts": true,
+         "browserName": "chrome",
+         "goog:chromeOptions": {
+            "args": [ "--proxy-bypass-list=\u003C-loopback>", "--disable-dev-shm-usage", "--window-size=1366,768" ],
+            "excludeSwitches": [ "enable-automation", "load-extension" ],
+            "extensions": [  ],
+            "prefs": {
+               "credentials_enable_service": false,
+               "download.default_directory": "E:\\Projektes\\Java\\H7\\build\\downloads\\1703744846182_1824_1",
+               "plugins.always_open_pdf_externally": true,
+               "profile.default_content_setting_values.automatic_downloads": 1,
+               "safebrowsing.enabled": true
+            }
+         },
+         "pageLoadStrategy": "normal",
+         "unhandledPromptBehavior": "accept"
+      } ]
+   }
+}
+[1703744846.637][INFO]: Browser search. Trying... E:\Merge\2023下\SoftTest\H7\env\chromedriver-win64\chrome.exe
+[1703744846.638][INFO]: Browser search. Trying... E:\Merge\2023下\SoftTest\H7\env\chromedriver-win64\chrome.exe
+[1703744846.638][INFO]: Browser search. Trying... E:\Merge\2023下\SoftTest\H7\env\chromedriver-win64\chromium.exe
+[1703744846.641][INFO]: Browser search. Trying... C:\Users\Heimweh\AppData\Local\Google\Chrome\Application\chrome.exe
+[1703744846.642][INFO]: Browser search. Trying... C:\Program Files\Google\Chrome\Application\chrome.exe
+[1703744846.642][INFO]: Browser search. Found at  C:\Program Files\Google\Chrome\Application\chrome.exe
+[1703744846.643][INFO]: Populating Preferences file: {
+   "alternate_error_pages": {
+      "enabled": false
+   },
+   "autofill": {
+      "enabled": false
+   },
+   "browser": {
+      "check_default_browser": false
+   },
+   "credentials_enable_service": false,
+   "distribution": {
+      "import_bookmarks": false,
+      "import_history": false,
+      "import_search_engine": false,
+      "make_chrome_default_for_user": false,
+      "skip_first_run_ui": true
+   },
+   "dns_prefetching": {
+      "enabled": false
+   },
+   "download": {
+      "default_directory": "E:\\Projektes\\Java\\H7\\build\\downloads\\1703744846182_1824_1"
+   },
+   "plugins": {
+      "always_open_pdf_externally": true
+   },
+   "profile": {
+      "content_settings": {
+         "pattern_pairs": {
+            "https://*,*": {
+               "media-stream": {
+                  "audio": "Default",
+                  "video": "Default"
+               }
+            }
+         }
+      },
+      "default_content_setting_values": {
+         "automatic_downloads": 1,
+         "geolocation": 1
+      },
+      "default_content_settings": {
+         "geolocation": 1,
+         "mouselock": 1,
+         "notifications": 1,
+         "popups": 1,
+         "ppapi-broker": 1
+      },
+      "password_manager_enabled": false
+   },
+   "safebrowsing": {
+      "enabled": true
+   },
+   "search": {
+      "suggest_enabled": false
+   },
+   "translate": {
+      "enabled": false
+   }
+}
+[1703744846.644][INFO]: Populating Local State file: {
+   "background_mode": {
+      "enabled": false
+   },
+   "ssl": {
+      "rev_checking": {
+         "enabled": false
+      }
+   }
+}
+[1703744846.645][INFO]: ChromeDriver supports communication with Chrome via pipes. This is more reliable and more secure.
+[1703744846.645][INFO]: Use the --remote-debugging-pipe Chrome switch instead of the default --remote-debugging-port to enable this communication mode.
+[1703744846.646][INFO]: Launching chrome: "C:\Program Files\Google\Chrome\Application\chrome.exe" --allow-pre-commit-input --disable-background-networking --disable-backgrounding-occluded-windows --disable-client-side-phishing-detection --disable-default-apps --disable-dev-shm-usage --disable-hang-monitor --disable-popup-blocking --disable-prompt-on-repost --disable-sync --enable-logging --ignore-certificate-errors --log-level=0 --no-first-run --no-service-autorun --password-store=basic --proxy-bypass-list=<-loopback> --remote-debugging-port=0 --test-type=webdriver --use-mock-keychain --user-data-dir="C:\Users\Heimweh\AppData\Local\Temp\scoped_dir9876_986357044" --window-size=1366,768 data:,
+[1703744847.180][INFO]: resolved localhost to ["::1","127.0.0.1"]
+[1703744847.184][INFO]: [3d77375218d99c902314e178a79bcf81] RESPONSE InitSession {
+   "capabilities": {
+      "acceptInsecureCerts": true,
+      "browserName": "chrome",
+      "browserVersion": "120.0.6099.130",
+      "chrome": {
+         "chromedriverVersion": "120.0.6099.109 (3419140ab665596f21b385ce136419fde0924272-refs/branch-heads/6099@{#1483})",
+         "userDataDir": "C:\\Users\\Heimweh\\AppData\\Local\\Temp\\scoped_dir9876_986357044"
+      },
+      "fedcm:accounts": true,
+      "goog:chromeOptions": {
+         "debuggerAddress": "localhost:58632"
+      },
+      "networkConnectionEnabled": false,
+      "pageLoadStrategy": "normal",
+      "platformName": "windows",
+      "proxy": {
+      },
+      "setWindowRect": true,
+      "strictFileInteractability": false,
+      "timeouts": {
+         "implicit": 0,
+         "pageLoad": 300000,
+         "script": 30000
+      },
+      "unhandledPromptBehavior": "accept",
+      "webauthn:extension:credBlob": true,
+      "webauthn:extension:largeBlob": true,
+      "webauthn:extension:minPinLength": true,
+      "webauthn:extension:prf": true,
+      "webauthn:virtualAuthenticators": true
+   },
+   "sessionId": "3d77375218d99c902314e178a79bcf81"
+}
+[1703744847.277][INFO]: [3d77375218d99c902314e178a79bcf81] COMMAND SetTimeouts {
+   "pageLoad": 30000
+}
+[1703744847.277][INFO]: [3d77375218d99c902314e178a79bcf81] RESPONSE SetTimeouts
+[1703744847.293][INFO]: [3d77375218d99c902314e178a79bcf81] COMMAND Navigate {
+   "url": "http://192.168.2.169:1080/webtours/"
+}
+[1703744847.293][INFO]: Waiting for pending navigations...
+[1703744847.295][INFO]: Done waiting for pending navigations. Status: ok
+[1703744847.356][INFO]: Waiting for pending navigations...
+[1703744847.565][INFO]: Done waiting for pending navigations. Status: ok
+[1703744847.565][INFO]: [3d77375218d99c902314e178a79bcf81] RESPONSE Navigate
+[1703744847.586][INFO]: [3d77375218d99c902314e178a79bcf81] COMMAND FindElements {
+   "using": "css selector",
+   "value": "frame[name='body'],iframe[name='body']"
+}
+[1703744847.586][INFO]: Waiting for pending navigations...
+[1703744847.587][INFO]: Done waiting for pending navigations. Status: ok
+[1703744847.597][INFO]: Waiting for pending navigations...
+[1703744847.597][INFO]: Done waiting for pending navigations. Status: ok
+[1703744847.597][INFO]: [3d77375218d99c902314e178a79bcf81] RESPONSE FindElements [ {
+   "element-6066-11e4-a52e-4f735466cecf": "C2BC9030F9303CCCD667DB84572D812C_element_14"
+} ]
+[1703744847.604][INFO]: [3d77375218d99c902314e178a79bcf81] COMMAND SwitchToFrame {
+   "id": {
+      "element-6066-11e4-a52e-4f735466cecf": "C2BC9030F9303CCCD667DB84572D812C_element_14"
+   }
+}
+[1703744847.604][INFO]: Waiting for pending navigations...
+[1703744847.605][INFO]: Done waiting for pending navigations. Status: ok
+[1703744847.622][INFO]: Waiting for pending navigations...
+[1703744847.623][INFO]: Done waiting for pending navigations. Status: ok
+[1703744847.623][INFO]: [3d77375218d99c902314e178a79bcf81] RESPONSE SwitchToFrame
+[1703744847.646][INFO]: [3d77375218d99c902314e178a79bcf81] COMMAND FindElement {
+   "using": "css selector",
+   "value": "body > form > table > tbody > tr:nth-child(4) > td:nth-child(2) > input[type=text]"
+}
+[1703744847.646][INFO]: Waiting for pending navigations...
+[1703744847.646][INFO]: Done waiting for pending navigations. Status: ok
+[1703744847.653][INFO]: Waiting for pending navigations...
+[1703744847.653][INFO]: Done waiting for pending navigations. Status: ok
+[1703744847.653][INFO]: [3d77375218d99c902314e178a79bcf81] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"body > form > table > tbody > tr:nth-child(4) > td:nth-child(2) > input[type=text]"}
+  (Session info: chrome=120.0.6099.130)
+[1703744847.868][INFO]: [3d77375218d99c902314e178a79bcf81] COMMAND FindElement {
+   "using": "css selector",
+   "value": "body > form > table > tbody > tr:nth-child(4) > td:nth-child(2) > input[type=text]"
+}
+[1703744847.868][INFO]: Waiting for pending navigations...
+[1703744847.869][INFO]: Done waiting for pending navigations. Status: ok
+[1703744847.873][INFO]: Waiting for pending navigations...
+[1703744847.873][INFO]: Done waiting for pending navigations. Status: ok
+[1703744847.873][INFO]: [3d77375218d99c902314e178a79bcf81] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"body > form > table > tbody > tr:nth-child(4) > td:nth-child(2) > input[type=text]"}
+  (Session info: chrome=120.0.6099.130)
+[1703744848.084][INFO]: [3d77375218d99c902314e178a79bcf81] COMMAND FindElement {
+   "using": "css selector",
+   "value": "body > form > table > tbody > tr:nth-child(4) > td:nth-child(2) > input[type=text]"
+}
+[1703744848.084][INFO]: Waiting for pending navigations...
+[1703744848.084][INFO]: Done waiting for pending navigations. Status: ok
+[1703744848.089][INFO]: Waiting for pending navigations...
+[1703744848.089][INFO]: Done waiting for pending navigations. Status: ok
+[1703744848.089][INFO]: [3d77375218d99c902314e178a79bcf81] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"body > form > table > tbody > tr:nth-child(4) > td:nth-child(2) > input[type=text]"}
+  (Session info: chrome=120.0.6099.130)
+[1703744848.301][INFO]: [3d77375218d99c902314e178a79bcf81] COMMAND FindElement {
+   "using": "css selector",
+   "value": "body > form > table > tbody > tr:nth-child(4) > td:nth-child(2) > input[type=text]"
+}
+[1703744848.301][INFO]: Waiting for pending navigations...
+[1703744848.301][INFO]: Done waiting for pending navigations. Status: ok
+[1703744848.306][INFO]: Waiting for pending navigations...
+[1703744848.306][INFO]: Done waiting for pending navigations. Status: ok
+[1703744848.306][INFO]: [3d77375218d99c902314e178a79bcf81] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"body > form > table > tbody > tr:nth-child(4) > td:nth-child(2) > input[type=text]"}
+  (Session info: chrome=120.0.6099.130)
+[1703744848.515][INFO]: [3d77375218d99c902314e178a79bcf81] COMMAND FindElement {
+   "using": "css selector",
+   "value": "body > form > table > tbody > tr:nth-child(4) > td:nth-child(2) > input[type=text]"
+}
+[1703744848.515][INFO]: Waiting for pending navigations...
+[1703744848.515][INFO]: Done waiting for pending navigations. Status: ok
+[1703744848.519][INFO]: Waiting for pending navigations...
+[1703744848.519][INFO]: Done waiting for pending navigations. Status: ok
+[1703744848.519][INFO]: [3d77375218d99c902314e178a79bcf81] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"body > form > table > tbody > tr:nth-child(4) > td:nth-child(2) > input[type=text]"}
+  (Session info: chrome=120.0.6099.130)
+[1703744848.731][INFO]: [3d77375218d99c902314e178a79bcf81] COMMAND FindElement {
+   "using": "css selector",
+   "value": "body > form > table > tbody > tr:nth-child(4) > td:nth-child(2) > input[type=text]"
+}
+[1703744848.731][INFO]: Waiting for pending navigations...
+[1703744848.732][INFO]: Done waiting for pending navigations. Status: ok
+[1703744848.736][INFO]: Waiting for pending navigations...
+[1703744848.736][INFO]: Done waiting for pending navigations. Status: ok
+[1703744848.736][INFO]: [3d77375218d99c902314e178a79bcf81] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"body > form > table > tbody > tr:nth-child(4) > td:nth-child(2) > input[type=text]"}
+  (Session info: chrome=120.0.6099.130)
+[1703744848.947][INFO]: [3d77375218d99c902314e178a79bcf81] COMMAND FindElement {
+   "using": "css selector",
+   "value": "body > form > table > tbody > tr:nth-child(4) > td:nth-child(2) > input[type=text]"
+}
+[1703744848.947][INFO]: Waiting for pending navigations...
+[1703744848.947][INFO]: Done waiting for pending navigations. Status: ok
+[1703744848.952][INFO]: Waiting for pending navigations...
+[1703744848.952][INFO]: Done waiting for pending navigations. Status: ok
+[1703744848.952][INFO]: [3d77375218d99c902314e178a79bcf81] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"body > form > table > tbody > tr:nth-child(4) > td:nth-child(2) > input[type=text]"}
+  (Session info: chrome=120.0.6099.130)
+[1703744849.162][INFO]: [3d77375218d99c902314e178a79bcf81] COMMAND FindElement {
+   "using": "css selector",
+   "value": "body > form > table > tbody > tr:nth-child(4) > td:nth-child(2) > input[type=text]"
+}
+[1703744849.163][INFO]: Waiting for pending navigations...
+[1703744849.163][INFO]: Done waiting for pending navigations. Status: ok
+[1703744849.167][INFO]: Waiting for pending navigations...
+[1703744849.167][INFO]: Done waiting for pending navigations. Status: ok
+[1703744849.167][INFO]: [3d77375218d99c902314e178a79bcf81] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"body > form > table > tbody > tr:nth-child(4) > td:nth-child(2) > input[type=text]"}
+  (Session info: chrome=120.0.6099.130)
+[1703744849.379][INFO]: [3d77375218d99c902314e178a79bcf81] COMMAND FindElement {
+   "using": "css selector",
+   "value": "body > form > table > tbody > tr:nth-child(4) > td:nth-child(2) > input[type=text]"
+}
+[1703744849.379][INFO]: Waiting for pending navigations...
+[1703744849.379][INFO]: Done waiting for pending navigations. Status: ok
+[1703744849.384][INFO]: Waiting for pending navigations...
+[1703744849.384][INFO]: Done waiting for pending navigations. Status: ok
+[1703744849.384][INFO]: [3d77375218d99c902314e178a79bcf81] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"body > form > table > tbody > tr:nth-child(4) > td:nth-child(2) > input[type=text]"}
+  (Session info: chrome=120.0.6099.130)
+[1703744849.595][INFO]: [3d77375218d99c902314e178a79bcf81] COMMAND FindElement {
+   "using": "css selector",
+   "value": "body > form > table > tbody > tr:nth-child(4) > td:nth-child(2) > input[type=text]"
+}
+[1703744849.595][INFO]: Waiting for pending navigations...
+[1703744849.596][INFO]: Done waiting for pending navigations. Status: ok
+[1703744849.599][INFO]: Waiting for pending navigations...
+[1703744849.599][INFO]: Done waiting for pending navigations. Status: ok
+[1703744849.599][INFO]: [3d77375218d99c902314e178a79bcf81] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"body > form > table > tbody > tr:nth-child(4) > td:nth-child(2) > input[type=text]"}
+  (Session info: chrome=120.0.6099.130)
+[1703744849.813][INFO]: [3d77375218d99c902314e178a79bcf81] COMMAND FindElement {
+   "using": "css selector",
+   "value": "body > form > table > tbody > tr:nth-child(4) > td:nth-child(2) > input[type=text]"
+}
+[1703744849.813][INFO]: Waiting for pending navigations...
+[1703744849.814][INFO]: Done waiting for pending navigations. Status: ok
+[1703744849.817][INFO]: Waiting for pending navigations...
+[1703744849.818][INFO]: Done waiting for pending navigations. Status: ok
+[1703744849.818][INFO]: [3d77375218d99c902314e178a79bcf81] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"body > form > table > tbody > tr:nth-child(4) > td:nth-child(2) > input[type=text]"}
+  (Session info: chrome=120.0.6099.130)
+[1703744850.031][INFO]: [3d77375218d99c902314e178a79bcf81] COMMAND FindElement {
+   "using": "css selector",
+   "value": "body > form > table > tbody > tr:nth-child(4) > td:nth-child(2) > input[type=text]"
+}
+[1703744850.031][INFO]: Waiting for pending navigations...
+[1703744850.031][INFO]: Done waiting for pending navigations. Status: ok
+[1703744850.035][INFO]: Waiting for pending navigations...
+[1703744850.035][INFO]: Done waiting for pending navigations. Status: ok
+[1703744850.035][INFO]: [3d77375218d99c902314e178a79bcf81] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"body > form > table > tbody > tr:nth-child(4) > td:nth-child(2) > input[type=text]"}
+  (Session info: chrome=120.0.6099.130)
+[1703744850.246][INFO]: [3d77375218d99c902314e178a79bcf81] COMMAND FindElement {
+   "using": "css selector",
+   "value": "body > form > table > tbody > tr:nth-child(4) > td:nth-child(2) > input[type=text]"
+}
+[1703744850.246][INFO]: Waiting for pending navigations...
+[1703744850.246][INFO]: Done waiting for pending navigations. Status: ok
+[1703744850.251][INFO]: Waiting for pending navigations...
+[1703744850.251][INFO]: Done waiting for pending navigations. Status: ok
+[1703744850.251][INFO]: [3d77375218d99c902314e178a79bcf81] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"body > form > table > tbody > tr:nth-child(4) > td:nth-child(2) > input[type=text]"}
+  (Session info: chrome=120.0.6099.130)
+[1703744850.460][INFO]: [3d77375218d99c902314e178a79bcf81] COMMAND FindElement {
+   "using": "css selector",
+   "value": "body > form > table > tbody > tr:nth-child(4) > td:nth-child(2) > input[type=text]"
+}
+[1703744850.460][INFO]: Waiting for pending navigations...
+[1703744850.461][INFO]: Done waiting for pending navigations. Status: ok
+[1703744850.465][INFO]: Waiting for pending navigations...
+[1703744850.465][INFO]: Done waiting for pending navigations. Status: ok
+[1703744850.465][INFO]: [3d77375218d99c902314e178a79bcf81] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"body > form > table > tbody > tr:nth-child(4) > td:nth-child(2) > input[type=text]"}
+  (Session info: chrome=120.0.6099.130)
+[1703744850.675][INFO]: [3d77375218d99c902314e178a79bcf81] COMMAND FindElement {
+   "using": "css selector",
+   "value": "body > form > table > tbody > tr:nth-child(4) > td:nth-child(2) > input[type=text]"
+}
+[1703744850.675][INFO]: Waiting for pending navigations...
+[1703744850.676][INFO]: Done waiting for pending navigations. Status: ok
+[1703744850.679][INFO]: Waiting for pending navigations...
+[1703744850.679][INFO]: Done waiting for pending navigations. Status: ok
+[1703744850.679][INFO]: [3d77375218d99c902314e178a79bcf81] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"body > form > table > tbody > tr:nth-child(4) > td:nth-child(2) > input[type=text]"}
+  (Session info: chrome=120.0.6099.130)
+[1703744850.891][INFO]: [3d77375218d99c902314e178a79bcf81] COMMAND FindElement {
+   "using": "css selector",
+   "value": "body > form > table > tbody > tr:nth-child(4) > td:nth-child(2) > input[type=text]"
+}
+[1703744850.891][INFO]: Waiting for pending navigations...
+[1703744850.892][INFO]: Done waiting for pending navigations. Status: ok
+[1703744850.895][INFO]: Waiting for pending navigations...
+[1703744850.896][INFO]: Done waiting for pending navigations. Status: ok
+[1703744850.896][INFO]: [3d77375218d99c902314e178a79bcf81] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"body > form > table > tbody > tr:nth-child(4) > td:nth-child(2) > input[type=text]"}
+  (Session info: chrome=120.0.6099.130)
+[1703744851.110][INFO]: [3d77375218d99c902314e178a79bcf81] COMMAND FindElement {
+   "using": "css selector",
+   "value": "body > form > table > tbody > tr:nth-child(4) > td:nth-child(2) > input[type=text]"
+}
+[1703744851.110][INFO]: Waiting for pending navigations...
+[1703744851.111][INFO]: Done waiting for pending navigations. Status: ok
+[1703744851.115][INFO]: Waiting for pending navigations...
+[1703744851.115][INFO]: Done waiting for pending navigations. Status: ok
+[1703744851.115][INFO]: [3d77375218d99c902314e178a79bcf81] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"body > form > table > tbody > tr:nth-child(4) > td:nth-child(2) > input[type=text]"}
+  (Session info: chrome=120.0.6099.130)
+[1703744851.326][INFO]: [3d77375218d99c902314e178a79bcf81] COMMAND FindElement {
+   "using": "css selector",
+   "value": "body > form > table > tbody > tr:nth-child(4) > td:nth-child(2) > input[type=text]"
+}
+[1703744851.326][INFO]: Waiting for pending navigations...
+[1703744851.327][INFO]: Done waiting for pending navigations. Status: ok
+[1703744851.330][INFO]: Waiting for pending navigations...
+[1703744851.331][INFO]: Done waiting for pending navigations. Status: ok
+[1703744851.331][INFO]: [3d77375218d99c902314e178a79bcf81] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"body > form > table > tbody > tr:nth-child(4) > td:nth-child(2) > input[type=text]"}
+  (Session info: chrome=120.0.6099.130)
+[1703744851.544][INFO]: [3d77375218d99c902314e178a79bcf81] COMMAND FindElement {
+   "using": "css selector",
+   "value": "body > form > table > tbody > tr:nth-child(4) > td:nth-child(2) > input[type=text]"
+}
+[1703744851.544][INFO]: Waiting for pending navigations...
+[1703744851.545][INFO]: Done waiting for pending navigations. Status: ok
+[1703744851.549][INFO]: Waiting for pending navigations...
+[1703744851.549][INFO]: Done waiting for pending navigations. Status: ok
+[1703744851.549][INFO]: [3d77375218d99c902314e178a79bcf81] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"body > form > table > tbody > tr:nth-child(4) > td:nth-child(2) > input[type=text]"}
+  (Session info: chrome=120.0.6099.130)
+[1703744851.774][INFO]: [3d77375218d99c902314e178a79bcf81] COMMAND ExecuteScript {
+   "args": [  ],
+   "script": "var source = document.documentElement.outerHTML; \nif (!source) { source = new XMLSerializer().serializeToString(document); }\nreturn source;"
+}
+[1703744851.774][INFO]: Waiting for pending navigations...
+[1703744851.775][INFO]: Done waiting for pending navigations. Status: ok
+[1703744851.777][INFO]: Waiting for pending navigations...
+[1703744851.777][INFO]: Done waiting for pending navigations. Status: ok
+[1703744851.777][INFO]: [3d77375218d99c902314e178a79bcf81] RESPONSE ExecuteScript "\u003Chtml>\u003Chead>\u003Ctitle>Web Tours\u003C/title>\n   \u003C!-- Frame Set -->\n   \u003C/head>\u003Cframeset cols=\"160,*\" border=\"1\" frameborder=\"1\">\n      \u003C!-- Navigation Frame -->\n      \u003Cframe src=\"nav.pl?in=home\" name=\"navba..."
+[1703744851.780][INFO]: [3d77375218d99c902314e178a79bcf81] COMMAND Screenshot {
+}
+[1703744851.780][INFO]: Waiting for pending navigations...
+[1703744851.781][INFO]: Done waiting for pending navigations. Status: ok
+[1703744851.857][INFO]: Waiting for pending navigations...
+[1703744851.857][INFO]: Done waiting for pending navigations. Status: ok
+[1703744851.857][INFO]: [3d77375218d99c902314e178a79bcf81] RESPONSE Screenshot "iVBORw0KGgoAAAANSUhEUgAABUYAAAKiCAYAAAAaMwZ7AAAAAXNSR0IArs4c6QAAIABJREFUeJzs3X9UnOWB9/+PpqlN0kBTnWUnimBK0mCojYygpYobTVawmYeCh2r3xGa7m5IcNgZzZImrX+paVh+l9KGxLI00u62ax2p5BCmpwU2qW3RRiWBqUaxiMgSTkR01h..."
+[1703744851.890][INFO]: [3d77375218d99c902314e178a79bcf81] COMMAND GetTitle {
+}
+[1703744851.891][INFO]: Waiting for pending navigations...
+[1703744851.891][INFO]: Done waiting for pending navigations. Status: ok
+[1703744851.893][INFO]: Waiting for pending navigations...
+[1703744851.893][INFO]: Done waiting for pending navigations. Status: ok
+[1703744851.893][INFO]: [3d77375218d99c902314e178a79bcf81] RESPONSE GetTitle "Web Tours"
+[1703744851.895][INFO]: [3d77375218d99c902314e178a79bcf81] COMMAND Navigate {
+   "url": "http://192.168.2.169:1080/webtours/"
+}
+[1703744851.896][INFO]: Waiting for pending navigations...
+[1703744851.896][INFO]: Done waiting for pending navigations. Status: ok
+[1703744851.911][INFO]: Waiting for pending navigations...
+[1703744852.091][INFO]: Done waiting for pending navigations. Status: ok
+[1703744852.091][INFO]: [3d77375218d99c902314e178a79bcf81] RESPONSE Navigate
+[1703744852.094][INFO]: [3d77375218d99c902314e178a79bcf81] COMMAND FindElements {
+   "using": "css selector",
+   "value": "frame[name='body'],iframe[name='body']"
+}
+[1703744852.094][INFO]: Waiting for pending navigations...
+[1703744852.094][INFO]: Done waiting for pending navigations. Status: ok
+[1703744852.098][INFO]: Waiting for pending navigations...
+[1703744852.098][INFO]: Done waiting for pending navigations. Status: ok
+[1703744852.099][INFO]: [3d77375218d99c902314e178a79bcf81] RESPONSE FindElements [ {
+   "element-6066-11e4-a52e-4f735466cecf": "8A3E45D55DA31EBBA3975BC15B46493E_element_28"
+} ]
+[1703744852.101][INFO]: [3d77375218d99c902314e178a79bcf81] COMMAND SwitchToFrame {
+   "id": {
+      "element-6066-11e4-a52e-4f735466cecf": "8A3E45D55DA31EBBA3975BC15B46493E_element_28"
+   }
+}
+[1703744852.101][INFO]: Waiting for pending navigations...
+[1703744852.101][INFO]: Done waiting for pending navigations. Status: ok
+[1703744852.110][INFO]: Waiting for pending navigations...
+[1703744852.111][INFO]: Done waiting for pending navigations. Status: ok
+[1703744852.111][INFO]: [3d77375218d99c902314e178a79bcf81] RESPONSE SwitchToFrame
+[1703744852.113][INFO]: [3d77375218d99c902314e178a79bcf81] COMMAND FindElement {
+   "using": "css selector",
+   "value": "body > form > table > tbody > tr:nth-child(4) > td:nth-child(2) > input[type=text]"
+}
+[1703744852.113][INFO]: Waiting for pending navigations...
+[1703744852.114][INFO]: Done waiting for pending navigations. Status: ok
+[1703744852.117][INFO]: Waiting for pending navigations...
+[1703744852.118][INFO]: Done waiting for pending navigations. Status: ok
+[1703744852.118][INFO]: [3d77375218d99c902314e178a79bcf81] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"body > form > table > tbody > tr:nth-child(4) > td:nth-child(2) > input[type=text]"}
+  (Session info: chrome=120.0.6099.130)
+[1703744852.331][INFO]: [3d77375218d99c902314e178a79bcf81] COMMAND FindElement {
+   "using": "css selector",
+   "value": "body > form > table > tbody > tr:nth-child(4) > td:nth-child(2) > input[type=text]"
+}
+[1703744852.331][INFO]: Waiting for pending navigations...
+[1703744852.332][INFO]: Done waiting for pending navigations. Status: ok
+[1703744852.336][INFO]: Waiting for pending navigations...
+[1703744852.336][INFO]: Done waiting for pending navigations. Status: ok
+[1703744852.336][INFO]: [3d77375218d99c902314e178a79bcf81] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"body > form > table > tbody > tr:nth-child(4) > td:nth-child(2) > input[type=text]"}
+  (Session info: chrome=120.0.6099.130)
+[1703744852.550][INFO]: [3d77375218d99c902314e178a79bcf81] COMMAND FindElement {
+   "using": "css selector",
+   "value": "body > form > table > tbody > tr:nth-child(4) > td:nth-child(2) > input[type=text]"
+}
+[1703744852.550][INFO]: Waiting for pending navigations...
+[1703744852.551][INFO]: Done waiting for pending navigations. Status: ok
+[1703744852.555][INFO]: Waiting for pending navigations...
+[1703744852.555][INFO]: Done waiting for pending navigations. Status: ok
+[1703744852.555][INFO]: [3d77375218d99c902314e178a79bcf81] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"body > form > table > tbody > tr:nth-child(4) > td:nth-child(2) > input[type=text]"}
+  (Session info: chrome=120.0.6099.130)
+[1703744852.767][INFO]: [3d77375218d99c902314e178a79bcf81] COMMAND FindElement {
+   "using": "css selector",
+   "value": "body > form > table > tbody > tr:nth-child(4) > td:nth-child(2) > input[type=text]"
+}
+[1703744852.767][INFO]: Waiting for pending navigations...
+[1703744852.767][INFO]: Done waiting for pending navigations. Status: ok
+[1703744852.771][INFO]: Waiting for pending navigations...
+[1703744852.771][INFO]: Done waiting for pending navigations. Status: ok
+[1703744852.771][INFO]: [3d77375218d99c902314e178a79bcf81] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"body > form > table > tbody > tr:nth-child(4) > td:nth-child(2) > input[type=text]"}
+  (Session info: chrome=120.0.6099.130)
+[1703744852.984][INFO]: [3d77375218d99c902314e178a79bcf81] COMMAND FindElement {
+   "using": "css selector",
+   "value": "body > form > table > tbody > tr:nth-child(4) > td:nth-child(2) > input[type=text]"
+}
+[1703744852.984][INFO]: Waiting for pending navigations...
+[1703744852.985][INFO]: Done waiting for pending navigations. Status: ok
+[1703744852.989][INFO]: Waiting for pending navigations...
+[1703744852.989][INFO]: Done waiting for pending navigations. Status: ok
+[1703744852.989][INFO]: [3d77375218d99c902314e178a79bcf81] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"body > form > table > tbody > tr:nth-child(4) > td:nth-child(2) > input[type=text]"}
+  (Session info: chrome=120.0.6099.130)
+[1703744853.202][INFO]: [3d77375218d99c902314e178a79bcf81] COMMAND FindElement {
+   "using": "css selector",
+   "value": "body > form > table > tbody > tr:nth-child(4) > td:nth-child(2) > input[type=text]"
+}
+[1703744853.202][INFO]: Waiting for pending navigations...
+[1703744853.202][INFO]: Done waiting for pending navigations. Status: ok
+[1703744853.205][INFO]: Waiting for pending navigations...
+[1703744853.206][INFO]: Done waiting for pending navigations. Status: ok
+[1703744853.206][INFO]: [3d77375218d99c902314e178a79bcf81] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"body > form > table > tbody > tr:nth-child(4) > td:nth-child(2) > input[type=text]"}
+  (Session info: chrome=120.0.6099.130)
+[1703744853.418][INFO]: [3d77375218d99c902314e178a79bcf81] COMMAND FindElement {
+   "using": "css selector",
+   "value": "body > form > table > tbody > tr:nth-child(4) > td:nth-child(2) > input[type=text]"
+}
+[1703744853.418][INFO]: Waiting for pending navigations...
+[1703744853.418][INFO]: Done waiting for pending navigations. Status: ok
+[1703744853.422][INFO]: Waiting for pending navigations...
+[1703744853.423][INFO]: Done waiting for pending navigations. Status: ok
+[1703744853.423][INFO]: [3d77375218d99c902314e178a79bcf81] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"body > form > table > tbody > tr:nth-child(4) > td:nth-child(2) > input[type=text]"}
+  (Session info: chrome=120.0.6099.130)
+[1703744853.631][INFO]: [3d77375218d99c902314e178a79bcf81] COMMAND FindElement {
+   "using": "css selector",
+   "value": "body > form > table > tbody > tr:nth-child(4) > td:nth-child(2) > input[type=text]"
+}
+[1703744853.631][INFO]: Waiting for pending navigations...
+[1703744853.631][INFO]: Done waiting for pending navigations. Status: ok
+[1703744853.635][INFO]: Waiting for pending navigations...
+[1703744853.635][INFO]: Done waiting for pending navigations. Status: ok
+[1703744853.636][INFO]: [3d77375218d99c902314e178a79bcf81] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"body > form > table > tbody > tr:nth-child(4) > td:nth-child(2) > input[type=text]"}
+  (Session info: chrome=120.0.6099.130)
+[1703744853.846][INFO]: [3d77375218d99c902314e178a79bcf81] COMMAND FindElement {
+   "using": "css selector",
+   "value": "body > form > table > tbody > tr:nth-child(4) > td:nth-child(2) > input[type=text]"
+}
+[1703744853.847][INFO]: Waiting for pending navigations...
+[1703744853.847][INFO]: Done waiting for pending navigations. Status: ok
+[1703744853.851][INFO]: Waiting for pending navigations...
+[1703744853.851][INFO]: Done waiting for pending navigations. Status: ok
+[1703744853.851][INFO]: [3d77375218d99c902314e178a79bcf81] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"body > form > table > tbody > tr:nth-child(4) > td:nth-child(2) > input[type=text]"}
+  (Session info: chrome=120.0.6099.130)
+[1703744854.065][INFO]: [3d77375218d99c902314e178a79bcf81] COMMAND FindElement {
+   "using": "css selector",
+   "value": "body > form > table > tbody > tr:nth-child(4) > td:nth-child(2) > input[type=text]"
+}
+[1703744854.065][INFO]: Waiting for pending navigations...
+[1703744854.066][INFO]: Done waiting for pending navigations. Status: ok
+[1703744854.070][INFO]: Waiting for pending navigations...
+[1703744854.070][INFO]: Done waiting for pending navigations. Status: ok
+[1703744854.070][INFO]: [3d77375218d99c902314e178a79bcf81] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"body > form > table > tbody > tr:nth-child(4) > td:nth-child(2) > input[type=text]"}
+  (Session info: chrome=120.0.6099.130)
+[1703744854.282][INFO]: [3d77375218d99c902314e178a79bcf81] COMMAND FindElement {
+   "using": "css selector",
+   "value": "body > form > table > tbody > tr:nth-child(4) > td:nth-child(2) > input[type=text]"
+}
+[1703744854.282][INFO]: Waiting for pending navigations...
+[1703744854.283][INFO]: Done waiting for pending navigations. Status: ok
+[1703744854.287][INFO]: Waiting for pending navigations...
+[1703744854.287][INFO]: Done waiting for pending navigations. Status: ok
+[1703744854.287][INFO]: [3d77375218d99c902314e178a79bcf81] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"body > form > table > tbody > tr:nth-child(4) > td:nth-child(2) > input[type=text]"}
+  (Session info: chrome=120.0.6099.130)
+[1703744854.500][INFO]: [3d77375218d99c902314e178a79bcf81] COMMAND FindElement {
+   "using": "css selector",
+   "value": "body > form > table > tbody > tr:nth-child(4) > td:nth-child(2) > input[type=text]"
+}
+[1703744854.500][INFO]: Waiting for pending navigations...
+[1703744854.501][INFO]: Done waiting for pending navigations. Status: ok
+[1703744854.504][INFO]: Waiting for pending navigations...
+[1703744854.504][INFO]: Done waiting for pending navigations. Status: ok
+[1703744854.504][INFO]: [3d77375218d99c902314e178a79bcf81] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"body > form > table > tbody > tr:nth-child(4) > td:nth-child(2) > input[type=text]"}
+  (Session info: chrome=120.0.6099.130)
+[1703744854.715][INFO]: [3d77375218d99c902314e178a79bcf81] COMMAND FindElement {
+   "using": "css selector",
+   "value": "body > form > table > tbody > tr:nth-child(4) > td:nth-child(2) > input[type=text]"
+}
+[1703744854.715][INFO]: Waiting for pending navigations...
+[1703744854.716][INFO]: Done waiting for pending navigations. Status: ok
+[1703744854.722][INFO]: Waiting for pending navigations...
+[1703744854.723][INFO]: Done waiting for pending navigations. Status: ok
+[1703744854.723][INFO]: [3d77375218d99c902314e178a79bcf81] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"body > form > table > tbody > tr:nth-child(4) > td:nth-child(2) > input[type=text]"}
+  (Session info: chrome=120.0.6099.130)
+[1703744854.933][INFO]: [3d77375218d99c902314e178a79bcf81] COMMAND FindElement {
+   "using": "css selector",
+   "value": "body > form > table > tbody > tr:nth-child(4) > td:nth-child(2) > input[type=text]"
+}
+[1703744854.933][INFO]: Waiting for pending navigations...
+[1703744854.933][INFO]: Done waiting for pending navigations. Status: ok
+[1703744854.936][INFO]: Waiting for pending navigations...
+[1703744854.937][INFO]: Done waiting for pending navigations. Status: ok
+[1703744854.937][INFO]: [3d77375218d99c902314e178a79bcf81] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"body > form > table > tbody > tr:nth-child(4) > td:nth-child(2) > input[type=text]"}
+  (Session info: chrome=120.0.6099.130)
+[1703744855.150][INFO]: [3d77375218d99c902314e178a79bcf81] COMMAND FindElement {
+   "using": "css selector",
+   "value": "body > form > table > tbody > tr:nth-child(4) > td:nth-child(2) > input[type=text]"
+}
+[1703744855.151][INFO]: Waiting for pending navigations...
+[1703744855.151][INFO]: Done waiting for pending navigations. Status: ok
+[1703744855.155][INFO]: Waiting for pending navigations...
+[1703744855.156][INFO]: Done waiting for pending navigations. Status: ok
+[1703744855.156][INFO]: [3d77375218d99c902314e178a79bcf81] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"body > form > table > tbody > tr:nth-child(4) > td:nth-child(2) > input[type=text]"}
+  (Session info: chrome=120.0.6099.130)
+[1703744855.367][INFO]: [3d77375218d99c902314e178a79bcf81] COMMAND FindElement {
+   "using": "css selector",
+   "value": "body > form > table > tbody > tr:nth-child(4) > td:nth-child(2) > input[type=text]"
+}
+[1703744855.367][INFO]: Waiting for pending navigations...
+[1703744855.368][INFO]: Done waiting for pending navigations. Status: ok
+[1703744855.371][INFO]: Waiting for pending navigations...
+[1703744855.371][INFO]: Done waiting for pending navigations. Status: ok
+[1703744855.371][INFO]: [3d77375218d99c902314e178a79bcf81] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"body > form > table > tbody > tr:nth-child(4) > td:nth-child(2) > input[type=text]"}
+  (Session info: chrome=120.0.6099.130)
+[1703744855.584][INFO]: [3d77375218d99c902314e178a79bcf81] COMMAND FindElement {
+   "using": "css selector",
+   "value": "body > form > table > tbody > tr:nth-child(4) > td:nth-child(2) > input[type=text]"
+}
+[1703744855.584][INFO]: Waiting for pending navigations...
+[1703744855.585][INFO]: Done waiting for pending navigations. Status: ok
+[1703744855.589][INFO]: Waiting for pending navigations...
+[1703744855.590][INFO]: Done waiting for pending navigations. Status: ok
+[1703744855.590][INFO]: [3d77375218d99c902314e178a79bcf81] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"body > form > table > tbody > tr:nth-child(4) > td:nth-child(2) > input[type=text]"}
+  (Session info: chrome=120.0.6099.130)
+[1703744855.800][INFO]: [3d77375218d99c902314e178a79bcf81] COMMAND FindElement {
+   "using": "css selector",
+   "value": "body > form > table > tbody > tr:nth-child(4) > td:nth-child(2) > input[type=text]"
+}
+[1703744855.800][INFO]: Waiting for pending navigations...
+[1703744855.800][INFO]: Done waiting for pending navigations. Status: ok
+[1703744855.805][INFO]: Waiting for pending navigations...
+[1703744855.805][INFO]: Done waiting for pending navigations. Status: ok
+[1703744855.805][INFO]: [3d77375218d99c902314e178a79bcf81] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"body > form > table > tbody > tr:nth-child(4) > td:nth-child(2) > input[type=text]"}
+  (Session info: chrome=120.0.6099.130)
+[1703744856.014][INFO]: [3d77375218d99c902314e178a79bcf81] COMMAND FindElement {
+   "using": "css selector",
+   "value": "body > form > table > tbody > tr:nth-child(4) > td:nth-child(2) > input[type=text]"
+}
+[1703744856.014][INFO]: Waiting for pending navigations...
+[1703744856.015][INFO]: Done waiting for pending navigations. Status: ok
+[1703744856.019][INFO]: Waiting for pending navigations...
+[1703744856.019][INFO]: Done waiting for pending navigations. Status: ok
+[1703744856.019][INFO]: [3d77375218d99c902314e178a79bcf81] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"body > form > table > tbody > tr:nth-child(4) > td:nth-child(2) > input[type=text]"}
+  (Session info: chrome=120.0.6099.130)
+[1703744856.233][INFO]: [3d77375218d99c902314e178a79bcf81] COMMAND ExecuteScript {
+   "args": [  ],
+   "script": "var source = document.documentElement.outerHTML; \nif (!source) { source = new XMLSerializer().serializeToString(document); }\nreturn source;"
+}
+[1703744856.234][INFO]: Waiting for pending navigations...
+[1703744856.234][INFO]: Done waiting for pending navigations. Status: ok
+[1703744856.236][INFO]: Waiting for pending navigations...
+[1703744856.236][INFO]: Done waiting for pending navigations. Status: ok
+[1703744856.236][INFO]: [3d77375218d99c902314e178a79bcf81] RESPONSE ExecuteScript "\u003Chtml>\u003Chead>\u003Ctitle>Web Tours\u003C/title>\n   \u003C!-- Frame Set -->\n   \u003C/head>\u003Cframeset cols=\"160,*\" border=\"1\" frameborder=\"1\">\n      \u003C!-- Navigation Frame -->\n      \u003Cframe src=\"nav.pl?in=home\" name=\"navba..."
+[1703744856.240][INFO]: [3d77375218d99c902314e178a79bcf81] COMMAND Screenshot {
+}
+[1703744856.240][INFO]: Waiting for pending navigations...
+[1703744856.240][INFO]: Done waiting for pending navigations. Status: ok
+[1703744856.343][INFO]: Waiting for pending navigations...
+[1703744856.344][INFO]: Done waiting for pending navigations. Status: ok
+[1703744856.344][INFO]: [3d77375218d99c902314e178a79bcf81] RESPONSE Screenshot "iVBORw0KGgoAAAANSUhEUgAABUYAAAKiCAYAAAAaMwZ7AAAAAXNSR0IArs4c6QAAIABJREFUeJzs3X9UnOWB9/+PpqlN0kBTnWUnimBK0mCojYygpYobTVawmYeCh2r3xGa7m5IcNgZzZImrX+paVh+l9KGxLI00u62ax2p5BCmpwU2qW3RRiWBqUaxiMgSTkR01h..."
+[1703744856.359][INFO]: [3d77375218d99c902314e178a79bcf81] COMMAND GetTitle {
+}
+[1703744856.359][INFO]: Waiting for pending navigations...
+[1703744856.359][INFO]: Done waiting for pending navigations. Status: ok
+[1703744856.361][INFO]: Waiting for pending navigations...
+[1703744856.362][INFO]: Done waiting for pending navigations. Status: ok
+[1703744856.362][INFO]: [3d77375218d99c902314e178a79bcf81] RESPONSE GetTitle "Web Tours"
+[1703744856.364][INFO]: [3d77375218d99c902314e178a79bcf81] COMMAND Navigate {
+   "url": "http://192.168.2.169:1080/webtours/"
+}
+[1703744856.364][INFO]: Waiting for pending navigations...
+[1703744856.364][INFO]: Done waiting for pending navigations. Status: ok
+[1703744856.375][INFO]: Waiting for pending navigations...
+[1703744856.512][INFO]: Done waiting for pending navigations. Status: ok
+[1703744856.512][INFO]: [3d77375218d99c902314e178a79bcf81] RESPONSE Navigate
+[1703744856.514][INFO]: [3d77375218d99c902314e178a79bcf81] COMMAND FindElements {
+   "using": "css selector",
+   "value": "frame[name='body'],iframe[name='body']"
+}
+[1703744856.514][INFO]: Waiting for pending navigations...
+[1703744856.515][INFO]: Done waiting for pending navigations. Status: ok
+[1703744856.519][INFO]: Waiting for pending navigations...
+[1703744856.519][INFO]: Done waiting for pending navigations. Status: ok
+[1703744856.519][INFO]: [3d77375218d99c902314e178a79bcf81] RESPONSE FindElements [ {
+   "element-6066-11e4-a52e-4f735466cecf": "39B4321911389EB2CFD002078D88DFEC_element_41"
+} ]
+[1703744856.521][INFO]: [3d77375218d99c902314e178a79bcf81] COMMAND SwitchToFrame {
+   "id": {
+      "element-6066-11e4-a52e-4f735466cecf": "39B4321911389EB2CFD002078D88DFEC_element_41"
+   }
+}
+[1703744856.521][INFO]: Waiting for pending navigations...
+[1703744856.522][INFO]: Done waiting for pending navigations. Status: ok
+[1703744856.532][INFO]: Waiting for pending navigations...
+[1703744856.533][INFO]: Done waiting for pending navigations. Status: ok
+[1703744856.533][INFO]: [3d77375218d99c902314e178a79bcf81] RESPONSE SwitchToFrame
+[1703744856.535][INFO]: [3d77375218d99c902314e178a79bcf81] COMMAND FindElement {
+   "using": "css selector",
+   "value": "body > form > table > tbody > tr:nth-child(4) > td:nth-child(2) > input[type=text]"
+}
+[1703744856.535][INFO]: Waiting for pending navigations...
+[1703744856.535][INFO]: Done waiting for pending navigations. Status: ok
+[1703744856.539][INFO]: Waiting for pending navigations...
+[1703744856.539][INFO]: Done waiting for pending navigations. Status: ok
+[1703744856.539][INFO]: [3d77375218d99c902314e178a79bcf81] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"body > form > table > tbody > tr:nth-child(4) > td:nth-child(2) > input[type=text]"}
+  (Session info: chrome=120.0.6099.130)
+[1703744856.743][INFO]: [3d77375218d99c902314e178a79bcf81] COMMAND FindElement {
+   "using": "css selector",
+   "value": "body > form > table > tbody > tr:nth-child(4) > td:nth-child(2) > input[type=text]"
+}
+[1703744856.743][INFO]: Waiting for pending navigations...
+[1703744856.744][INFO]: Done waiting for pending navigations. Status: ok
+[1703744856.747][INFO]: Waiting for pending navigations...
+[1703744856.748][INFO]: Done waiting for pending navigations. Status: ok
+[1703744856.748][INFO]: [3d77375218d99c902314e178a79bcf81] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"body > form > table > tbody > tr:nth-child(4) > td:nth-child(2) > input[type=text]"}
+  (Session info: chrome=120.0.6099.130)
+[1703744856.958][INFO]: [3d77375218d99c902314e178a79bcf81] COMMAND FindElement {
+   "using": "css selector",
+   "value": "body > form > table > tbody > tr:nth-child(4) > td:nth-child(2) > input[type=text]"
+}
+[1703744856.958][INFO]: Waiting for pending navigations...
+[1703744856.959][INFO]: Done waiting for pending navigations. Status: ok
+[1703744856.962][INFO]: Waiting for pending navigations...
+[1703744856.962][INFO]: Done waiting for pending navigations. Status: ok
+[1703744856.962][INFO]: [3d77375218d99c902314e178a79bcf81] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"body > form > table > tbody > tr:nth-child(4) > td:nth-child(2) > input[type=text]"}
+  (Session info: chrome=120.0.6099.130)
+[1703744857.175][INFO]: [3d77375218d99c902314e178a79bcf81] COMMAND FindElement {
+   "using": "css selector",
+   "value": "body > form > table > tbody > tr:nth-child(4) > td:nth-child(2) > input[type=text]"
+}
+[1703744857.175][INFO]: Waiting for pending navigations...
+[1703744857.176][INFO]: Done waiting for pending navigations. Status: ok
+[1703744857.180][INFO]: Waiting for pending navigations...
+[1703744857.181][INFO]: Done waiting for pending navigations. Status: ok
+[1703744857.181][INFO]: [3d77375218d99c902314e178a79bcf81] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"body > form > table > tbody > tr:nth-child(4) > td:nth-child(2) > input[type=text]"}
+  (Session info: chrome=120.0.6099.130)
+[1703744857.391][INFO]: [3d77375218d99c902314e178a79bcf81] COMMAND FindElement {
+   "using": "css selector",
+   "value": "body > form > table > tbody > tr:nth-child(4) > td:nth-child(2) > input[type=text]"
+}
+[1703744857.391][INFO]: Waiting for pending navigations...
+[1703744857.392][INFO]: Done waiting for pending navigations. Status: ok
+[1703744857.396][INFO]: Waiting for pending navigations...
+[1703744857.396][INFO]: Done waiting for pending navigations. Status: ok
+[1703744857.396][INFO]: [3d77375218d99c902314e178a79bcf81] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"body > form > table > tbody > tr:nth-child(4) > td:nth-child(2) > input[type=text]"}
+  (Session info: chrome=120.0.6099.130)
+[1703744857.609][INFO]: [3d77375218d99c902314e178a79bcf81] COMMAND FindElement {
+   "using": "css selector",
+   "value": "body > form > table > tbody > tr:nth-child(4) > td:nth-child(2) > input[type=text]"
+}
+[1703744857.609][INFO]: Waiting for pending navigations...
+[1703744857.609][INFO]: Done waiting for pending navigations. Status: ok
+[1703744857.613][INFO]: Waiting for pending navigations...
+[1703744857.614][INFO]: Done waiting for pending navigations. Status: ok
+[1703744857.614][INFO]: [3d77375218d99c902314e178a79bcf81] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"body > form > table > tbody > tr:nth-child(4) > td:nth-child(2) > input[type=text]"}
+  (Session info: chrome=120.0.6099.130)
+[1703744857.826][INFO]: [3d77375218d99c902314e178a79bcf81] COMMAND FindElement {
+   "using": "css selector",
+   "value": "body > form > table > tbody > tr:nth-child(4) > td:nth-child(2) > input[type=text]"
+}
+[1703744857.826][INFO]: Waiting for pending navigations...
+[1703744857.827][INFO]: Done waiting for pending navigations. Status: ok
+[1703744857.830][INFO]: Waiting for pending navigations...
+[1703744857.831][INFO]: Done waiting for pending navigations. Status: ok
+[1703744857.831][INFO]: [3d77375218d99c902314e178a79bcf81] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"body > form > table > tbody > tr:nth-child(4) > td:nth-child(2) > input[type=text]"}
+  (Session info: chrome=120.0.6099.130)
+[1703744858.042][INFO]: [3d77375218d99c902314e178a79bcf81] COMMAND FindElement {
+   "using": "css selector",
+   "value": "body > form > table > tbody > tr:nth-child(4) > td:nth-child(2) > input[type=text]"
+}
+[1703744858.042][INFO]: Waiting for pending navigations...
+[1703744858.042][INFO]: Done waiting for pending navigations. Status: ok
+[1703744858.046][INFO]: Waiting for pending navigations...
+[1703744858.046][INFO]: Done waiting for pending navigations. Status: ok
+[1703744858.046][INFO]: [3d77375218d99c902314e178a79bcf81] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"body > form > table > tbody > tr:nth-child(4) > td:nth-child(2) > input[type=text]"}
+  (Session info: chrome=120.0.6099.130)
+[1703744858.257][INFO]: [3d77375218d99c902314e178a79bcf81] COMMAND FindElement {
+   "using": "css selector",
+   "value": "body > form > table > tbody > tr:nth-child(4) > td:nth-child(2) > input[type=text]"
+}
+[1703744858.258][INFO]: Waiting for pending navigations...
+[1703744858.258][INFO]: Done waiting for pending navigations. Status: ok
+[1703744858.262][INFO]: Waiting for pending navigations...
+[1703744858.262][INFO]: Done waiting for pending navigations. Status: ok
+[1703744858.262][INFO]: [3d77375218d99c902314e178a79bcf81] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"body > form > table > tbody > tr:nth-child(4) > td:nth-child(2) > input[type=text]"}
+  (Session info: chrome=120.0.6099.130)
+[1703744858.474][INFO]: [3d77375218d99c902314e178a79bcf81] COMMAND FindElement {
+   "using": "css selector",
+   "value": "body > form > table > tbody > tr:nth-child(4) > td:nth-child(2) > input[type=text]"
+}
+[1703744858.474][INFO]: Waiting for pending navigations...
+[1703744858.474][INFO]: Done waiting for pending navigations. Status: ok
+[1703744858.478][INFO]: Waiting for pending navigations...
+[1703744858.478][INFO]: Done waiting for pending navigations. Status: ok
+[1703744858.478][INFO]: [3d77375218d99c902314e178a79bcf81] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"body > form > table > tbody > tr:nth-child(4) > td:nth-child(2) > input[type=text]"}
+  (Session info: chrome=120.0.6099.130)
+[1703744858.694][INFO]: [3d77375218d99c902314e178a79bcf81] COMMAND FindElement {
+   "using": "css selector",
+   "value": "body > form > table > tbody > tr:nth-child(4) > td:nth-child(2) > input[type=text]"
+}
+[1703744858.694][INFO]: Waiting for pending navigations...
+[1703744858.695][INFO]: Done waiting for pending navigations. Status: ok
+[1703744858.698][INFO]: Waiting for pending navigations...
+[1703744858.698][INFO]: Done waiting for pending navigations. Status: ok
+[1703744858.698][INFO]: [3d77375218d99c902314e178a79bcf81] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"body > form > table > tbody > tr:nth-child(4) > td:nth-child(2) > input[type=text]"}
+  (Session info: chrome=120.0.6099.130)
+[1703744858.906][INFO]: [3d77375218d99c902314e178a79bcf81] COMMAND FindElement {
+   "using": "css selector",
+   "value": "body > form > table > tbody > tr:nth-child(4) > td:nth-child(2) > input[type=text]"
+}
+[1703744858.906][INFO]: Waiting for pending navigations...
+[1703744858.907][INFO]: Done waiting for pending navigations. Status: ok
+[1703744858.911][INFO]: Waiting for pending navigations...
+[1703744858.911][INFO]: Done waiting for pending navigations. Status: ok
+[1703744858.911][INFO]: [3d77375218d99c902314e178a79bcf81] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"body > form > table > tbody > tr:nth-child(4) > td:nth-child(2) > input[type=text]"}
+  (Session info: chrome=120.0.6099.130)
+[1703744859.124][INFO]: [3d77375218d99c902314e178a79bcf81] COMMAND FindElement {
+   "using": "css selector",
+   "value": "body > form > table > tbody > tr:nth-child(4) > td:nth-child(2) > input[type=text]"
+}
+[1703744859.124][INFO]: Waiting for pending navigations...
+[1703744859.125][INFO]: Done waiting for pending navigations. Status: ok
+[1703744859.128][INFO]: Waiting for pending navigations...
+[1703744859.128][INFO]: Done waiting for pending navigations. Status: ok
+[1703744859.128][INFO]: [3d77375218d99c902314e178a79bcf81] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"body > form > table > tbody > tr:nth-child(4) > td:nth-child(2) > input[type=text]"}
+  (Session info: chrome=120.0.6099.130)
+[1703744859.342][INFO]: [3d77375218d99c902314e178a79bcf81] COMMAND FindElement {
+   "using": "css selector",
+   "value": "body > form > table > tbody > tr:nth-child(4) > td:nth-child(2) > input[type=text]"
+}
+[1703744859.342][INFO]: Waiting for pending navigations...
+[1703744859.343][INFO]: Done waiting for pending navigations. Status: ok
+[1703744859.347][INFO]: Waiting for pending navigations...
+[1703744859.347][INFO]: Done waiting for pending navigations. Status: ok
+[1703744859.347][INFO]: [3d77375218d99c902314e178a79bcf81] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"body > form > table > tbody > tr:nth-child(4) > td:nth-child(2) > input[type=text]"}
+  (Session info: chrome=120.0.6099.130)
+[1703744859.561][INFO]: [3d77375218d99c902314e178a79bcf81] COMMAND FindElement {
+   "using": "css selector",
+   "value": "body > form > table > tbody > tr:nth-child(4) > td:nth-child(2) > input[type=text]"
+}
+[1703744859.561][INFO]: Waiting for pending navigations...
+[1703744859.561][INFO]: Done waiting for pending navigations. Status: ok
+[1703744859.565][INFO]: Waiting for pending navigations...
+[1703744859.566][INFO]: Done waiting for pending navigations. Status: ok
+[1703744859.566][INFO]: [3d77375218d99c902314e178a79bcf81] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"body > form > table > tbody > tr:nth-child(4) > td:nth-child(2) > input[type=text]"}
+  (Session info: chrome=120.0.6099.130)
+[1703744859.778][INFO]: [3d77375218d99c902314e178a79bcf81] COMMAND FindElement {
+   "using": "css selector",
+   "value": "body > form > table > tbody > tr:nth-child(4) > td:nth-child(2) > input[type=text]"
+}
+[1703744859.778][INFO]: Waiting for pending navigations...
+[1703744859.778][INFO]: Done waiting for pending navigations. Status: ok
+[1703744859.783][INFO]: Waiting for pending navigations...
+[1703744859.784][INFO]: Done waiting for pending navigations. Status: ok
+[1703744859.784][INFO]: [3d77375218d99c902314e178a79bcf81] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"body > form > table > tbody > tr:nth-child(4) > td:nth-child(2) > input[type=text]"}
+  (Session info: chrome=120.0.6099.130)
+[1703744859.994][INFO]: [3d77375218d99c902314e178a79bcf81] COMMAND FindElement {
+   "using": "css selector",
+   "value": "body > form > table > tbody > tr:nth-child(4) > td:nth-child(2) > input[type=text]"
+}
+[1703744859.994][INFO]: Waiting for pending navigations...
+[1703744859.995][INFO]: Done waiting for pending navigations. Status: ok
+[1703744860.000][INFO]: Waiting for pending navigations...
+[1703744860.000][INFO]: Done waiting for pending navigations. Status: ok
+[1703744860.000][INFO]: [3d77375218d99c902314e178a79bcf81] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"body > form > table > tbody > tr:nth-child(4) > td:nth-child(2) > input[type=text]"}
+  (Session info: chrome=120.0.6099.130)
+[1703744860.210][INFO]: [3d77375218d99c902314e178a79bcf81] COMMAND FindElement {
+   "using": "css selector",
+   "value": "body > form > table > tbody > tr:nth-child(4) > td:nth-child(2) > input[type=text]"
+}
+[1703744860.210][INFO]: Waiting for pending navigations...
+[1703744860.211][INFO]: Done waiting for pending navigations. Status: ok
+[1703744860.214][INFO]: Waiting for pending navigations...
+[1703744860.215][INFO]: Done waiting for pending navigations. Status: ok
+[1703744860.215][INFO]: [3d77375218d99c902314e178a79bcf81] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"body > form > table > tbody > tr:nth-child(4) > td:nth-child(2) > input[type=text]"}
+  (Session info: chrome=120.0.6099.130)
+[1703744860.426][INFO]: [3d77375218d99c902314e178a79bcf81] COMMAND FindElement {
+   "using": "css selector",
+   "value": "body > form > table > tbody > tr:nth-child(4) > td:nth-child(2) > input[type=text]"
+}
+[1703744860.426][INFO]: Waiting for pending navigations...
+[1703744860.426][INFO]: Done waiting for pending navigations. Status: ok
+[1703744860.430][INFO]: Waiting for pending navigations...
+[1703744860.430][INFO]: Done waiting for pending navigations. Status: ok
+[1703744860.430][INFO]: [3d77375218d99c902314e178a79bcf81] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"body > form > table > tbody > tr:nth-child(4) > td:nth-child(2) > input[type=text]"}
+  (Session info: chrome=120.0.6099.130)
+[1703744860.641][INFO]: [3d77375218d99c902314e178a79bcf81] COMMAND ExecuteScript {
+   "args": [  ],
+   "script": "var source = document.documentElement.outerHTML; \nif (!source) { source = new XMLSerializer().serializeToString(document); }\nreturn source;"
+}
+[1703744860.641][INFO]: Waiting for pending navigations...
+[1703744860.642][INFO]: Done waiting for pending navigations. Status: ok
+[1703744860.644][INFO]: Waiting for pending navigations...
+[1703744860.644][INFO]: Done waiting for pending navigations. Status: ok
+[1703744860.644][INFO]: [3d77375218d99c902314e178a79bcf81] RESPONSE ExecuteScript "\u003Chtml>\u003Chead>\u003Ctitle>Web Tours\u003C/title>\n   \u003C!-- Frame Set -->\n   \u003C/head>\u003Cframeset cols=\"160,*\" border=\"1\" frameborder=\"1\">\n      \u003C!-- Navigation Frame -->\n      \u003Cframe src=\"nav.pl?in=home\" name=\"navba..."
+[1703744860.647][INFO]: [3d77375218d99c902314e178a79bcf81] COMMAND Screenshot {
+}
+[1703744860.647][INFO]: Waiting for pending navigations...
+[1703744860.648][INFO]: Done waiting for pending navigations. Status: ok
+[1703744860.726][INFO]: Waiting for pending navigations...
+[1703744860.726][INFO]: Done waiting for pending navigations. Status: ok
+[1703744860.726][INFO]: [3d77375218d99c902314e178a79bcf81] RESPONSE Screenshot "iVBORw0KGgoAAAANSUhEUgAABUYAAAKiCAYAAAAaMwZ7AAAAAXNSR0IArs4c6QAAIABJREFUeJzs3X9UnOWB9/+PpqlN0kBTnWUnimBK0mCojYygpYobTVawmYeCh2r3xGa7m5IcNgZzZImrX+paVh+l9KGxLI00u62ax2p5BCmpwU2qW3RRiWBqUaxiMgSTkR01h..."
+[1703744860.750][INFO]: [3d77375218d99c902314e178a79bcf81] COMMAND GetTitle {
+}
+[1703744860.751][INFO]: Waiting for pending navigations...
+[1703744860.751][INFO]: Done waiting for pending navigations. Status: ok
+[1703744860.753][INFO]: Waiting for pending navigations...
+[1703744860.753][INFO]: Done waiting for pending navigations. Status: ok
+[1703744860.753][INFO]: [3d77375218d99c902314e178a79bcf81] RESPONSE GetTitle "Web Tours"
+[1703744860.755][INFO]: [3d77375218d99c902314e178a79bcf81] COMMAND Navigate {
+   "url": "http://192.168.2.169:1080/webtours/"
+}
+[1703744860.755][INFO]: Waiting for pending navigations...
+[1703744860.756][INFO]: Done waiting for pending navigations. Status: ok
+[1703744860.770][INFO]: Waiting for pending navigations...
+[1703744860.893][INFO]: Done waiting for pending navigations. Status: ok
+[1703744860.893][INFO]: [3d77375218d99c902314e178a79bcf81] RESPONSE Navigate
+[1703744860.896][INFO]: [3d77375218d99c902314e178a79bcf81] COMMAND FindElements {
+   "using": "css selector",
+   "value": "frame[name='body'],iframe[name='body']"
+}
+[1703744860.896][INFO]: Waiting for pending navigations...
+[1703744860.896][INFO]: Done waiting for pending navigations. Status: ok
+[1703744860.901][INFO]: Waiting for pending navigations...
+[1703744860.901][INFO]: Done waiting for pending navigations. Status: ok
+[1703744860.902][INFO]: [3d77375218d99c902314e178a79bcf81] RESPONSE FindElements [ {
+   "element-6066-11e4-a52e-4f735466cecf": "60967301E1D60CEBB61692A5866303F4_element_56"
+} ]
+[1703744860.904][INFO]: [3d77375218d99c902314e178a79bcf81] COMMAND SwitchToFrame {
+   "id": {
+      "element-6066-11e4-a52e-4f735466cecf": "60967301E1D60CEBB61692A5866303F4_element_56"
+   }
+}
+[1703744860.904][INFO]: Waiting for pending navigations...
+[1703744860.904][INFO]: Done waiting for pending navigations. Status: ok
+[1703744860.914][INFO]: Waiting for pending navigations...
+[1703744860.914][INFO]: Done waiting for pending navigations. Status: ok
+[1703744860.914][INFO]: [3d77375218d99c902314e178a79bcf81] RESPONSE SwitchToFrame
+[1703744860.916][INFO]: [3d77375218d99c902314e178a79bcf81] COMMAND FindElement {
+   "using": "css selector",
+   "value": "body > form > table > tbody > tr:nth-child(4) > td:nth-child(2) > input[type=text]"
+}
+[1703744860.916][INFO]: Waiting for pending navigations...
+[1703744860.916][INFO]: Done waiting for pending navigations. Status: ok
+[1703744860.920][INFO]: Waiting for pending navigations...
+[1703744860.921][INFO]: Done waiting for pending navigations. Status: ok
+[1703744860.921][INFO]: [3d77375218d99c902314e178a79bcf81] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"body > form > table > tbody > tr:nth-child(4) > td:nth-child(2) > input[type=text]"}
+  (Session info: chrome=120.0.6099.130)
+[1703744861.133][INFO]: [3d77375218d99c902314e178a79bcf81] COMMAND FindElement {
+   "using": "css selector",
+   "value": "body > form > table > tbody > tr:nth-child(4) > td:nth-child(2) > input[type=text]"
+}
+[1703744861.133][INFO]: Waiting for pending navigations...
+[1703744861.133][INFO]: Done waiting for pending navigations. Status: ok
+[1703744861.138][INFO]: Waiting for pending navigations...
+[1703744861.138][INFO]: Done waiting for pending navigations. Status: ok
+[1703744861.138][INFO]: [3d77375218d99c902314e178a79bcf81] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"body > form > table > tbody > tr:nth-child(4) > td:nth-child(2) > input[type=text]"}
+  (Session info: chrome=120.0.6099.130)
+[1703744861.346][INFO]: [3d77375218d99c902314e178a79bcf81] COMMAND FindElement {
+   "using": "css selector",
+   "value": "body > form > table > tbody > tr:nth-child(4) > td:nth-child(2) > input[type=text]"
+}
+[1703744861.346][INFO]: Waiting for pending navigations...
+[1703744861.347][INFO]: Done waiting for pending navigations. Status: ok
+[1703744861.350][INFO]: Waiting for pending navigations...
+[1703744861.350][INFO]: Done waiting for pending navigations. Status: ok
+[1703744861.350][INFO]: [3d77375218d99c902314e178a79bcf81] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"body > form > table > tbody > tr:nth-child(4) > td:nth-child(2) > input[type=text]"}
+  (Session info: chrome=120.0.6099.130)
+[1703744861.562][INFO]: [3d77375218d99c902314e178a79bcf81] COMMAND FindElement {
+   "using": "css selector",
+   "value": "body > form > table > tbody > tr:nth-child(4) > td:nth-child(2) > input[type=text]"
+}
+[1703744861.562][INFO]: Waiting for pending navigations...
+[1703744861.563][INFO]: Done waiting for pending navigations. Status: ok
+[1703744861.567][INFO]: Waiting for pending navigations...
+[1703744861.567][INFO]: Done waiting for pending navigations. Status: ok
+[1703744861.567][INFO]: [3d77375218d99c902314e178a79bcf81] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"body > form > table > tbody > tr:nth-child(4) > td:nth-child(2) > input[type=text]"}
+  (Session info: chrome=120.0.6099.130)
+[1703744861.776][INFO]: [3d77375218d99c902314e178a79bcf81] COMMAND FindElement {
+   "using": "css selector",
+   "value": "body > form > table > tbody > tr:nth-child(4) > td:nth-child(2) > input[type=text]"
+}
+[1703744861.776][INFO]: Waiting for pending navigations...
+[1703744861.777][INFO]: Done waiting for pending navigations. Status: ok
+[1703744861.781][INFO]: Waiting for pending navigations...
+[1703744861.781][INFO]: Done waiting for pending navigations. Status: ok
+[1703744861.781][INFO]: [3d77375218d99c902314e178a79bcf81] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"body > form > table > tbody > tr:nth-child(4) > td:nth-child(2) > input[type=text]"}
+  (Session info: chrome=120.0.6099.130)
+[1703744861.991][INFO]: [3d77375218d99c902314e178a79bcf81] COMMAND FindElement {
+   "using": "css selector",
+   "value": "body > form > table > tbody > tr:nth-child(4) > td:nth-child(2) > input[type=text]"
+}
+[1703744861.991][INFO]: Waiting for pending navigations...
+[1703744861.992][INFO]: Done waiting for pending navigations. Status: ok
+[1703744861.996][INFO]: Waiting for pending navigations...
+[1703744861.996][INFO]: Done waiting for pending navigations. Status: ok
+[1703744861.996][INFO]: [3d77375218d99c902314e178a79bcf81] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"body > form > table > tbody > tr:nth-child(4) > td:nth-child(2) > input[type=text]"}
+  (Session info: chrome=120.0.6099.130)
+[1703744862.208][INFO]: [3d77375218d99c902314e178a79bcf81] COMMAND FindElement {
+   "using": "css selector",
+   "value": "body > form > table > tbody > tr:nth-child(4) > td:nth-child(2) > input[type=text]"
+}
+[1703744862.208][INFO]: Waiting for pending navigations...
+[1703744862.208][INFO]: Done waiting for pending navigations. Status: ok
+[1703744862.212][INFO]: Waiting for pending navigations...
+[1703744862.213][INFO]: Done waiting for pending navigations. Status: ok
+[1703744862.213][INFO]: [3d77375218d99c902314e178a79bcf81] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"body > form > table > tbody > tr:nth-child(4) > td:nth-child(2) > input[type=text]"}
+  (Session info: chrome=120.0.6099.130)
+[1703744862.422][INFO]: [3d77375218d99c902314e178a79bcf81] COMMAND FindElement {
+   "using": "css selector",
+   "value": "body > form > table > tbody > tr:nth-child(4) > td:nth-child(2) > input[type=text]"
+}
+[1703744862.422][INFO]: Waiting for pending navigations...
+[1703744862.422][INFO]: Done waiting for pending navigations. Status: ok
+[1703744862.426][INFO]: Waiting for pending navigations...
+[1703744862.426][INFO]: Done waiting for pending navigations. Status: ok
+[1703744862.426][INFO]: [3d77375218d99c902314e178a79bcf81] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"body > form > table > tbody > tr:nth-child(4) > td:nth-child(2) > input[type=text]"}
+  (Session info: chrome=120.0.6099.130)
+[1703744862.638][INFO]: [3d77375218d99c902314e178a79bcf81] COMMAND FindElement {
+   "using": "css selector",
+   "value": "body > form > table > tbody > tr:nth-child(4) > td:nth-child(2) > input[type=text]"
+}
+[1703744862.638][INFO]: Waiting for pending navigations...
+[1703744862.639][INFO]: Done waiting for pending navigations. Status: ok
+[1703744862.642][INFO]: Waiting for pending navigations...
+[1703744862.642][INFO]: Done waiting for pending navigations. Status: ok
+[1703744862.642][INFO]: [3d77375218d99c902314e178a79bcf81] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"body > form > table > tbody > tr:nth-child(4) > td:nth-child(2) > input[type=text]"}
+  (Session info: chrome=120.0.6099.130)
+[1703744862.854][INFO]: [3d77375218d99c902314e178a79bcf81] COMMAND FindElement {
+   "using": "css selector",
+   "value": "body > form > table > tbody > tr:nth-child(4) > td:nth-child(2) > input[type=text]"
+}
+[1703744862.854][INFO]: Waiting for pending navigations...
+[1703744862.854][INFO]: Done waiting for pending navigations. Status: ok
+[1703744862.858][INFO]: Waiting for pending navigations...
+[1703744862.858][INFO]: Done waiting for pending navigations. Status: ok
+[1703744862.858][INFO]: [3d77375218d99c902314e178a79bcf81] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"body > form > table > tbody > tr:nth-child(4) > td:nth-child(2) > input[type=text]"}
+  (Session info: chrome=120.0.6099.130)
+[1703744863.070][INFO]: [3d77375218d99c902314e178a79bcf81] COMMAND FindElement {
+   "using": "css selector",
+   "value": "body > form > table > tbody > tr:nth-child(4) > td:nth-child(2) > input[type=text]"
+}
+[1703744863.070][INFO]: Waiting for pending navigations...
+[1703744863.070][INFO]: Done waiting for pending navigations. Status: ok
+[1703744863.075][INFO]: Waiting for pending navigations...
+[1703744863.075][INFO]: Done waiting for pending navigations. Status: ok
+[1703744863.075][INFO]: [3d77375218d99c902314e178a79bcf81] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"body > form > table > tbody > tr:nth-child(4) > td:nth-child(2) > input[type=text]"}
+  (Session info: chrome=120.0.6099.130)
+[1703744863.284][INFO]: [3d77375218d99c902314e178a79bcf81] COMMAND FindElement {
+   "using": "css selector",
+   "value": "body > form > table > tbody > tr:nth-child(4) > td:nth-child(2) > input[type=text]"
+}
+[1703744863.285][INFO]: Waiting for pending navigations...
+[1703744863.285][INFO]: Done waiting for pending navigations. Status: ok
+[1703744863.289][INFO]: Waiting for pending navigations...
+[1703744863.289][INFO]: Done waiting for pending navigations. Status: ok
+[1703744863.289][INFO]: [3d77375218d99c902314e178a79bcf81] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"body > form > table > tbody > tr:nth-child(4) > td:nth-child(2) > input[type=text]"}
+  (Session info: chrome=120.0.6099.130)
+[1703744863.501][INFO]: [3d77375218d99c902314e178a79bcf81] COMMAND FindElement {
+   "using": "css selector",
+   "value": "body > form > table > tbody > tr:nth-child(4) > td:nth-child(2) > input[type=text]"
+}
+[1703744863.501][INFO]: Waiting for pending navigations...
+[1703744863.501][INFO]: Done waiting for pending navigations. Status: ok
+[1703744863.504][INFO]: Waiting for pending navigations...
+[1703744863.505][INFO]: Done waiting for pending navigations. Status: ok
+[1703744863.505][INFO]: [3d77375218d99c902314e178a79bcf81] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"body > form > table > tbody > tr:nth-child(4) > td:nth-child(2) > input[type=text]"}
+  (Session info: chrome=120.0.6099.130)
+[1703744863.718][INFO]: [3d77375218d99c902314e178a79bcf81] COMMAND FindElement {
+   "using": "css selector",
+   "value": "body > form > table > tbody > tr:nth-child(4) > td:nth-child(2) > input[type=text]"
+}
+[1703744863.718][INFO]: Waiting for pending navigations...
+[1703744863.718][INFO]: Done waiting for pending navigations. Status: ok
+[1703744863.722][INFO]: Waiting for pending navigations...
+[1703744863.722][INFO]: Done waiting for pending navigations. Status: ok
+[1703744863.722][INFO]: [3d77375218d99c902314e178a79bcf81] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"body > form > table > tbody > tr:nth-child(4) > td:nth-child(2) > input[type=text]"}
+  (Session info: chrome=120.0.6099.130)
+[1703744863.933][INFO]: [3d77375218d99c902314e178a79bcf81] COMMAND FindElement {
+   "using": "css selector",
+   "value": "body > form > table > tbody > tr:nth-child(4) > td:nth-child(2) > input[type=text]"
+}
+[1703744863.933][INFO]: Waiting for pending navigations...
+[1703744863.934][INFO]: Done waiting for pending navigations. Status: ok
+[1703744863.937][INFO]: Waiting for pending navigations...
+[1703744863.937][INFO]: Done waiting for pending navigations. Status: ok
+[1703744863.937][INFO]: [3d77375218d99c902314e178a79bcf81] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"body > form > table > tbody > tr:nth-child(4) > td:nth-child(2) > input[type=text]"}
+  (Session info: chrome=120.0.6099.130)
+[1703744864.150][INFO]: [3d77375218d99c902314e178a79bcf81] COMMAND FindElement {
+   "using": "css selector",
+   "value": "body > form > table > tbody > tr:nth-child(4) > td:nth-child(2) > input[type=text]"
+}
+[1703744864.150][INFO]: Waiting for pending navigations...
+[1703744864.151][INFO]: Done waiting for pending navigations. Status: ok
+[1703744864.155][INFO]: Waiting for pending navigations...
+[1703744864.155][INFO]: Done waiting for pending navigations. Status: ok
+[1703744864.155][INFO]: [3d77375218d99c902314e178a79bcf81] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"body > form > table > tbody > tr:nth-child(4) > td:nth-child(2) > input[type=text]"}
+  (Session info: chrome=120.0.6099.130)
+[1703744864.365][INFO]: [3d77375218d99c902314e178a79bcf81] COMMAND FindElement {
+   "using": "css selector",
+   "value": "body > form > table > tbody > tr:nth-child(4) > td:nth-child(2) > input[type=text]"
+}
+[1703744864.365][INFO]: Waiting for pending navigations...
+[1703744864.366][INFO]: Done waiting for pending navigations. Status: ok
+[1703744864.370][INFO]: Waiting for pending navigations...
+[1703744864.370][INFO]: Done waiting for pending navigations. Status: ok
+[1703744864.371][INFO]: [3d77375218d99c902314e178a79bcf81] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"body > form > table > tbody > tr:nth-child(4) > td:nth-child(2) > input[type=text]"}
+  (Session info: chrome=120.0.6099.130)
+[1703744864.587][INFO]: [3d77375218d99c902314e178a79bcf81] COMMAND FindElement {
+   "using": "css selector",
+   "value": "body > form > table > tbody > tr:nth-child(4) > td:nth-child(2) > input[type=text]"
+}
+[1703744864.587][INFO]: Waiting for pending navigations...
+[1703744864.587][INFO]: Done waiting for pending navigations. Status: ok
+[1703744864.598][INFO]: Waiting for pending navigations...
+[1703744864.602][INFO]: Done waiting for pending navigations. Status: ok
+[1703744864.602][INFO]: [3d77375218d99c902314e178a79bcf81] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"body > form > table > tbody > tr:nth-child(4) > td:nth-child(2) > input[type=text]"}
+  (Session info: chrome=120.0.6099.130)
+[1703744864.814][INFO]: [3d77375218d99c902314e178a79bcf81] COMMAND FindElement {
+   "using": "css selector",
+   "value": "body > form > table > tbody > tr:nth-child(4) > td:nth-child(2) > input[type=text]"
+}
+[1703744864.814][INFO]: Waiting for pending navigations...
+[1703744864.815][INFO]: Done waiting for pending navigations. Status: ok
+[1703744864.818][INFO]: Waiting for pending navigations...
+[1703744864.818][INFO]: Done waiting for pending navigations. Status: ok
+[1703744864.818][INFO]: [3d77375218d99c902314e178a79bcf81] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"body > form > table > tbody > tr:nth-child(4) > td:nth-child(2) > input[type=text]"}
+  (Session info: chrome=120.0.6099.130)
+[1703744865.032][INFO]: [3d77375218d99c902314e178a79bcf81] COMMAND ExecuteScript {
+   "args": [  ],
+   "script": "var source = document.documentElement.outerHTML; \nif (!source) { source = new XMLSerializer().serializeToString(document); }\nreturn source;"
+}
+[1703744865.032][INFO]: Waiting for pending navigations...
+[1703744865.032][INFO]: Done waiting for pending navigations. Status: ok
+[1703744865.034][INFO]: Waiting for pending navigations...
+[1703744865.035][INFO]: Done waiting for pending navigations. Status: ok
+[1703744865.035][INFO]: [3d77375218d99c902314e178a79bcf81] RESPONSE ExecuteScript "\u003Chtml>\u003Chead>\u003Ctitle>Web Tours\u003C/title>\n   \u003C!-- Frame Set -->\n   \u003C/head>\u003Cframeset cols=\"160,*\" border=\"1\" frameborder=\"1\">\n      \u003C!-- Navigation Frame -->\n      \u003Cframe src=\"nav.pl?in=home\" name=\"navba..."
+[1703744865.037][INFO]: [3d77375218d99c902314e178a79bcf81] COMMAND Screenshot {
+}
+[1703744865.037][INFO]: Waiting for pending navigations...
+[1703744865.038][INFO]: Done waiting for pending navigations. Status: ok
+[1703744865.147][INFO]: Waiting for pending navigations...
+[1703744865.148][INFO]: Done waiting for pending navigations. Status: ok
+[1703744865.148][INFO]: [3d77375218d99c902314e178a79bcf81] RESPONSE Screenshot "iVBORw0KGgoAAAANSUhEUgAABUYAAAKiCAYAAAAaMwZ7AAAAAXNSR0IArs4c6QAAIABJREFUeJzs3X9UnOWB9/+PpqlN0kBTnWUnimBK0mCojYygpYobTVawmYeCh2r3xGa7m5IcNgZzZImrX+paVh+l9KGxLI00u62ax2p5BCmpwU2qW3RRiWBqUaxiMgSTkR01h..."
+[1703744865.160][INFO]: [3d77375218d99c902314e178a79bcf81] COMMAND GetTitle {
+}
+[1703744865.160][INFO]: Waiting for pending navigations...
+[1703744865.161][INFO]: Done waiting for pending navigations. Status: ok
+[1703744865.162][INFO]: Waiting for pending navigations...
+[1703744865.163][INFO]: Done waiting for pending navigations. Status: ok
+[1703744865.163][INFO]: [3d77375218d99c902314e178a79bcf81] RESPONSE GetTitle "Web Tours"
+[1703744865.164][INFO]: [3d77375218d99c902314e178a79bcf81] COMMAND Navigate {
+   "url": "http://192.168.2.169:1080/webtours/"
+}
+[1703744865.164][INFO]: Waiting for pending navigations...
+[1703744865.165][INFO]: Done waiting for pending navigations. Status: ok
+[1703744865.179][INFO]: Waiting for pending navigations...
+[1703744865.385][INFO]: Done waiting for pending navigations. Status: ok
+[1703744865.385][INFO]: [3d77375218d99c902314e178a79bcf81] RESPONSE Navigate
+[1703744865.388][INFO]: [3d77375218d99c902314e178a79bcf81] COMMAND FindElements {
+   "using": "css selector",
+   "value": "frame[name='body'],iframe[name='body']"
+}
+[1703744865.388][INFO]: Waiting for pending navigations...
+[1703744865.388][INFO]: Done waiting for pending navigations. Status: ok
+[1703744865.393][INFO]: Waiting for pending navigations...
+[1703744865.394][INFO]: Done waiting for pending navigations. Status: ok
+[1703744865.394][INFO]: [3d77375218d99c902314e178a79bcf81] RESPONSE FindElements [ {
+   "element-6066-11e4-a52e-4f735466cecf": "BECF55182EFAD0D7B2441A8FED9BD655_element_71"
+} ]
+[1703744865.396][INFO]: [3d77375218d99c902314e178a79bcf81] COMMAND SwitchToFrame {
+   "id": {
+      "element-6066-11e4-a52e-4f735466cecf": "BECF55182EFAD0D7B2441A8FED9BD655_element_71"
+   }
+}
+[1703744865.396][INFO]: Waiting for pending navigations...
+[1703744865.396][INFO]: Done waiting for pending navigations. Status: ok
+[1703744865.405][INFO]: Waiting for pending navigations...
+[1703744865.405][INFO]: Done waiting for pending navigations. Status: ok
+[1703744865.405][INFO]: [3d77375218d99c902314e178a79bcf81] RESPONSE SwitchToFrame
+[1703744865.407][INFO]: [3d77375218d99c902314e178a79bcf81] COMMAND FindElement {
+   "using": "css selector",
+   "value": "body > form > table > tbody > tr:nth-child(4) > td:nth-child(2) > input[type=text]"
+}
+[1703744865.407][INFO]: Waiting for pending navigations...
+[1703744865.407][INFO]: Done waiting for pending navigations. Status: ok
+[1703744865.412][INFO]: Waiting for pending navigations...
+[1703744865.412][INFO]: Done waiting for pending navigations. Status: ok
+[1703744865.412][INFO]: [3d77375218d99c902314e178a79bcf81] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"body > form > table > tbody > tr:nth-child(4) > td:nth-child(2) > input[type=text]"}
+  (Session info: chrome=120.0.6099.130)
+[1703744865.619][INFO]: [3d77375218d99c902314e178a79bcf81] COMMAND FindElement {
+   "using": "css selector",
+   "value": "body > form > table > tbody > tr:nth-child(4) > td:nth-child(2) > input[type=text]"
+}
+[1703744865.619][INFO]: Waiting for pending navigations...
+[1703744865.619][INFO]: Done waiting for pending navigations. Status: ok
+[1703744865.624][INFO]: Waiting for pending navigations...
+[1703744865.624][INFO]: Done waiting for pending navigations. Status: ok
+[1703744865.624][INFO]: [3d77375218d99c902314e178a79bcf81] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"body > form > table > tbody > tr:nth-child(4) > td:nth-child(2) > input[type=text]"}
+  (Session info: chrome=120.0.6099.130)
+[1703744865.836][INFO]: [3d77375218d99c902314e178a79bcf81] COMMAND FindElement {
+   "using": "css selector",
+   "value": "body > form > table > tbody > tr:nth-child(4) > td:nth-child(2) > input[type=text]"
+}
+[1703744865.836][INFO]: Waiting for pending navigations...
+[1703744865.836][INFO]: Done waiting for pending navigations. Status: ok
+[1703744865.840][INFO]: Waiting for pending navigations...
+[1703744865.841][INFO]: Done waiting for pending navigations. Status: ok
+[1703744865.841][INFO]: [3d77375218d99c902314e178a79bcf81] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"body > form > table > tbody > tr:nth-child(4) > td:nth-child(2) > input[type=text]"}
+  (Session info: chrome=120.0.6099.130)
+[1703744866.053][INFO]: [3d77375218d99c902314e178a79bcf81] COMMAND FindElement {
+   "using": "css selector",
+   "value": "body > form > table > tbody > tr:nth-child(4) > td:nth-child(2) > input[type=text]"
+}
+[1703744866.053][INFO]: Waiting for pending navigations...
+[1703744866.053][INFO]: Done waiting for pending navigations. Status: ok
+[1703744866.056][INFO]: Waiting for pending navigations...
+[1703744866.057][INFO]: Done waiting for pending navigations. Status: ok
+[1703744866.057][INFO]: [3d77375218d99c902314e178a79bcf81] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"body > form > table > tbody > tr:nth-child(4) > td:nth-child(2) > input[type=text]"}
+  (Session info: chrome=120.0.6099.130)
+[1703744866.268][INFO]: [3d77375218d99c902314e178a79bcf81] COMMAND FindElement {
+   "using": "css selector",
+   "value": "body > form > table > tbody > tr:nth-child(4) > td:nth-child(2) > input[type=text]"
+}
+[1703744866.268][INFO]: Waiting for pending navigations...
+[1703744866.270][INFO]: Done waiting for pending navigations. Status: ok
+[1703744866.276][INFO]: Waiting for pending navigations...
+[1703744866.277][INFO]: Done waiting for pending navigations. Status: ok
+[1703744866.277][INFO]: [3d77375218d99c902314e178a79bcf81] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"body > form > table > tbody > tr:nth-child(4) > td:nth-child(2) > input[type=text]"}
+  (Session info: chrome=120.0.6099.130)
+[1703744866.484][INFO]: [3d77375218d99c902314e178a79bcf81] COMMAND FindElement {
+   "using": "css selector",
+   "value": "body > form > table > tbody > tr:nth-child(4) > td:nth-child(2) > input[type=text]"
+}
+[1703744866.484][INFO]: Waiting for pending navigations...
+[1703744866.484][INFO]: Done waiting for pending navigations. Status: ok
+[1703744866.488][INFO]: Waiting for pending navigations...
+[1703744866.488][INFO]: Done waiting for pending navigations. Status: ok
+[1703744866.488][INFO]: [3d77375218d99c902314e178a79bcf81] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"body > form > table > tbody > tr:nth-child(4) > td:nth-child(2) > input[type=text]"}
+  (Session info: chrome=120.0.6099.130)
+[1703744866.698][INFO]: [3d77375218d99c902314e178a79bcf81] COMMAND FindElement {
+   "using": "css selector",
+   "value": "body > form > table > tbody > tr:nth-child(4) > td:nth-child(2) > input[type=text]"
+}
+[1703744866.698][INFO]: Waiting for pending navigations...
+[1703744866.699][INFO]: Done waiting for pending navigations. Status: ok
+[1703744866.703][INFO]: Waiting for pending navigations...
+[1703744866.704][INFO]: Done waiting for pending navigations. Status: ok
+[1703744866.704][INFO]: [3d77375218d99c902314e178a79bcf81] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"body > form > table > tbody > tr:nth-child(4) > td:nth-child(2) > input[type=text]"}
+  (Session info: chrome=120.0.6099.130)
+[1703744866.915][INFO]: [3d77375218d99c902314e178a79bcf81] COMMAND FindElement {
+   "using": "css selector",
+   "value": "body > form > table > tbody > tr:nth-child(4) > td:nth-child(2) > input[type=text]"
+}
+[1703744866.915][INFO]: Waiting for pending navigations...
+[1703744866.915][INFO]: Done waiting for pending navigations. Status: ok
+[1703744866.919][INFO]: Waiting for pending navigations...
+[1703744866.919][INFO]: Done waiting for pending navigations. Status: ok
+[1703744866.919][INFO]: [3d77375218d99c902314e178a79bcf81] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"body > form > table > tbody > tr:nth-child(4) > td:nth-child(2) > input[type=text]"}
+  (Session info: chrome=120.0.6099.130)
+[1703744867.128][INFO]: [3d77375218d99c902314e178a79bcf81] COMMAND FindElement {
+   "using": "css selector",
+   "value": "body > form > table > tbody > tr:nth-child(4) > td:nth-child(2) > input[type=text]"
+}
+[1703744867.128][INFO]: Waiting for pending navigations...
+[1703744867.128][INFO]: Done waiting for pending navigations. Status: ok
+[1703744867.132][INFO]: Waiting for pending navigations...
+[1703744867.132][INFO]: Done waiting for pending navigations. Status: ok
+[1703744867.132][INFO]: [3d77375218d99c902314e178a79bcf81] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"body > form > table > tbody > tr:nth-child(4) > td:nth-child(2) > input[type=text]"}
+  (Session info: chrome=120.0.6099.130)
+[1703744867.345][INFO]: [3d77375218d99c902314e178a79bcf81] COMMAND FindElement {
+   "using": "css selector",
+   "value": "body > form > table > tbody > tr:nth-child(4) > td:nth-child(2) > input[type=text]"
+}
+[1703744867.345][INFO]: Waiting for pending navigations...
+[1703744867.345][INFO]: Done waiting for pending navigations. Status: ok
+[1703744867.349][INFO]: Waiting for pending navigations...
+[1703744867.349][INFO]: Done waiting for pending navigations. Status: ok
+[1703744867.349][INFO]: [3d77375218d99c902314e178a79bcf81] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"body > form > table > tbody > tr:nth-child(4) > td:nth-child(2) > input[type=text]"}
+  (Session info: chrome=120.0.6099.130)
+[1703744867.560][INFO]: [3d77375218d99c902314e178a79bcf81] COMMAND FindElement {
+   "using": "css selector",
+   "value": "body > form > table > tbody > tr:nth-child(4) > td:nth-child(2) > input[type=text]"
+}
+[1703744867.560][INFO]: Waiting for pending navigations...
+[1703744867.561][INFO]: Done waiting for pending navigations. Status: ok
+[1703744867.565][INFO]: Waiting for pending navigations...
+[1703744867.565][INFO]: Done waiting for pending navigations. Status: ok
+[1703744867.565][INFO]: [3d77375218d99c902314e178a79bcf81] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"body > form > table > tbody > tr:nth-child(4) > td:nth-child(2) > input[type=text]"}
+  (Session info: chrome=120.0.6099.130)
+[1703744867.777][INFO]: [3d77375218d99c902314e178a79bcf81] COMMAND FindElement {
+   "using": "css selector",
+   "value": "body > form > table > tbody > tr:nth-child(4) > td:nth-child(2) > input[type=text]"
+}
+[1703744867.777][INFO]: Waiting for pending navigations...
+[1703744867.778][INFO]: Done waiting for pending navigations. Status: ok
+[1703744867.782][INFO]: Waiting for pending navigations...
+[1703744867.782][INFO]: Done waiting for pending navigations. Status: ok
+[1703744867.782][INFO]: [3d77375218d99c902314e178a79bcf81] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"body > form > table > tbody > tr:nth-child(4) > td:nth-child(2) > input[type=text]"}
+  (Session info: chrome=120.0.6099.130)
+[1703744867.994][INFO]: [3d77375218d99c902314e178a79bcf81] COMMAND FindElement {
+   "using": "css selector",
+   "value": "body > form > table > tbody > tr:nth-child(4) > td:nth-child(2) > input[type=text]"
+}
+[1703744867.994][INFO]: Waiting for pending navigations...
+[1703744867.995][INFO]: Done waiting for pending navigations. Status: ok
+[1703744867.999][INFO]: Waiting for pending navigations...
+[1703744867.999][INFO]: Done waiting for pending navigations. Status: ok
+[1703744867.999][INFO]: [3d77375218d99c902314e178a79bcf81] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"body > form > table > tbody > tr:nth-child(4) > td:nth-child(2) > input[type=text]"}
+  (Session info: chrome=120.0.6099.130)
+[1703744868.211][INFO]: [3d77375218d99c902314e178a79bcf81] COMMAND FindElement {
+   "using": "css selector",
+   "value": "body > form > table > tbody > tr:nth-child(4) > td:nth-child(2) > input[type=text]"
+}
+[1703744868.211][INFO]: Waiting for pending navigations...
+[1703744868.212][INFO]: Done waiting for pending navigations. Status: ok
+[1703744868.216][INFO]: Waiting for pending navigations...
+[1703744868.216][INFO]: Done waiting for pending navigations. Status: ok
+[1703744868.216][INFO]: [3d77375218d99c902314e178a79bcf81] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"body > form > table > tbody > tr:nth-child(4) > td:nth-child(2) > input[type=text]"}
+  (Session info: chrome=120.0.6099.130)
+[1703744868.428][INFO]: [3d77375218d99c902314e178a79bcf81] COMMAND FindElement {
+   "using": "css selector",
+   "value": "body > form > table > tbody > tr:nth-child(4) > td:nth-child(2) > input[type=text]"
+}
+[1703744868.428][INFO]: Waiting for pending navigations...
+[1703744868.429][INFO]: Done waiting for pending navigations. Status: ok
+[1703744868.432][INFO]: Waiting for pending navigations...
+[1703744868.432][INFO]: Done waiting for pending navigations. Status: ok
+[1703744868.432][INFO]: [3d77375218d99c902314e178a79bcf81] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"body > form > table > tbody > tr:nth-child(4) > td:nth-child(2) > input[type=text]"}
+  (Session info: chrome=120.0.6099.130)
+[1703744868.643][INFO]: [3d77375218d99c902314e178a79bcf81] COMMAND FindElement {
+   "using": "css selector",
+   "value": "body > form > table > tbody > tr:nth-child(4) > td:nth-child(2) > input[type=text]"
+}
+[1703744868.643][INFO]: Waiting for pending navigations...
+[1703744868.643][INFO]: Done waiting for pending navigations. Status: ok
+[1703744868.649][INFO]: Waiting for pending navigations...
+[1703744868.649][INFO]: Done waiting for pending navigations. Status: ok
+[1703744868.649][INFO]: [3d77375218d99c902314e178a79bcf81] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"body > form > table > tbody > tr:nth-child(4) > td:nth-child(2) > input[type=text]"}
+  (Session info: chrome=120.0.6099.130)
+[1703744868.861][INFO]: [3d77375218d99c902314e178a79bcf81] COMMAND FindElement {
+   "using": "css selector",
+   "value": "body > form > table > tbody > tr:nth-child(4) > td:nth-child(2) > input[type=text]"
+}
+[1703744868.861][INFO]: Waiting for pending navigations...
+[1703744868.861][INFO]: Done waiting for pending navigations. Status: ok
+[1703744868.865][INFO]: Waiting for pending navigations...
+[1703744868.865][INFO]: Done waiting for pending navigations. Status: ok
+[1703744868.865][INFO]: [3d77375218d99c902314e178a79bcf81] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"body > form > table > tbody > tr:nth-child(4) > td:nth-child(2) > input[type=text]"}
+  (Session info: chrome=120.0.6099.130)
+[1703744869.076][INFO]: [3d77375218d99c902314e178a79bcf81] COMMAND FindElement {
+   "using": "css selector",
+   "value": "body > form > table > tbody > tr:nth-child(4) > td:nth-child(2) > input[type=text]"
+}
+[1703744869.076][INFO]: Waiting for pending navigations...
+[1703744869.077][INFO]: Done waiting for pending navigations. Status: ok
+[1703744869.080][INFO]: Waiting for pending navigations...
+[1703744869.081][INFO]: Done waiting for pending navigations. Status: ok
+[1703744869.081][INFO]: [3d77375218d99c902314e178a79bcf81] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"body > form > table > tbody > tr:nth-child(4) > td:nth-child(2) > input[type=text]"}
+  (Session info: chrome=120.0.6099.130)
+[1703744869.294][INFO]: [3d77375218d99c902314e178a79bcf81] COMMAND FindElement {
+   "using": "css selector",
+   "value": "body > form > table > tbody > tr:nth-child(4) > td:nth-child(2) > input[type=text]"
+}
+[1703744869.294][INFO]: Waiting for pending navigations...
+[1703744869.294][INFO]: Done waiting for pending navigations. Status: ok
+[1703744869.298][INFO]: Waiting for pending navigations...
+[1703744869.299][INFO]: Done waiting for pending navigations. Status: ok
+[1703744869.299][INFO]: [3d77375218d99c902314e178a79bcf81] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"body > form > table > tbody > tr:nth-child(4) > td:nth-child(2) > input[type=text]"}
+  (Session info: chrome=120.0.6099.130)
+[1703744869.514][INFO]: [3d77375218d99c902314e178a79bcf81] COMMAND ExecuteScript {
+   "args": [  ],
+   "script": "var source = document.documentElement.outerHTML; \nif (!source) { source = new XMLSerializer().serializeToString(document); }\nreturn source;"
+}
+[1703744869.514][INFO]: Waiting for pending navigations...
+[1703744869.515][INFO]: Done waiting for pending navigations. Status: ok
+[1703744869.516][INFO]: Waiting for pending navigations...
+[1703744869.516][INFO]: Done waiting for pending navigations. Status: ok
+[1703744869.517][INFO]: [3d77375218d99c902314e178a79bcf81] RESPONSE ExecuteScript "\u003Chtml>\u003Chead>\u003Ctitle>Web Tours\u003C/title>\n   \u003C!-- Frame Set -->\n   \u003C/head>\u003Cframeset cols=\"160,*\" border=\"1\" frameborder=\"1\">\n      \u003C!-- Navigation Frame -->\n      \u003Cframe src=\"nav.pl?in=home\" name=\"navba..."
+[1703744869.519][INFO]: [3d77375218d99c902314e178a79bcf81] COMMAND Screenshot {
+}
+[1703744869.519][INFO]: Waiting for pending navigations...
+[1703744869.520][INFO]: Done waiting for pending navigations. Status: ok
+[1703744869.612][INFO]: Waiting for pending navigations...
+[1703744869.612][INFO]: Done waiting for pending navigations. Status: ok
+[1703744869.612][INFO]: [3d77375218d99c902314e178a79bcf81] RESPONSE Screenshot "iVBORw0KGgoAAAANSUhEUgAABUYAAAKiCAYAAAAaMwZ7AAAAAXNSR0IArs4c6QAAIABJREFUeJzs3X9UnOWB9/+PpqlN0kBTnWUnimBK0mCojYygpYobTVawmYeCh2r3xGa7m5IcNgZzZImrX+paVh+l9KGxLI00u62ax2p5BCmpwU2qW3RRiWBqUaxiMgSTkR01h..."
+[1703744869.627][INFO]: [3d77375218d99c902314e178a79bcf81] COMMAND GetTitle {
+}
+[1703744869.627][INFO]: Waiting for pending navigations...
+[1703744869.628][INFO]: Done waiting for pending navigations. Status: ok
+[1703744869.630][INFO]: Waiting for pending navigations...
+[1703744869.630][INFO]: Done waiting for pending navigations. Status: ok
+[1703744869.630][INFO]: [3d77375218d99c902314e178a79bcf81] RESPONSE GetTitle "Web Tours"
+[1703744869.633][INFO]: [3d77375218d99c902314e178a79bcf81] COMMAND Navigate {
+   "url": "http://192.168.2.169:1080/webtours/"
+}
+[1703744869.633][INFO]: Waiting for pending navigations...
+[1703744869.633][INFO]: Done waiting for pending navigations. Status: ok
+[1703744869.647][INFO]: Waiting for pending navigations...
+[1703744869.802][INFO]: Done waiting for pending navigations. Status: ok
+[1703744869.803][INFO]: [3d77375218d99c902314e178a79bcf81] RESPONSE Navigate
+[1703744869.805][INFO]: [3d77375218d99c902314e178a79bcf81] COMMAND FindElements {
+   "using": "css selector",
+   "value": "frame[name='body'],iframe[name='body']"
+}
+[1703744869.805][INFO]: Waiting for pending navigations...
+[1703744869.806][INFO]: Done waiting for pending navigations. Status: ok
+[1703744869.811][INFO]: Waiting for pending navigations...
+[1703744869.811][INFO]: Done waiting for pending navigations. Status: ok
+[1703744869.811][INFO]: [3d77375218d99c902314e178a79bcf81] RESPONSE FindElements [ {
+   "element-6066-11e4-a52e-4f735466cecf": "2AAB62EF9D9948A3275FA2F8A1B68FE4_element_84"
+} ]
+[1703744869.813][INFO]: [3d77375218d99c902314e178a79bcf81] COMMAND SwitchToFrame {
+   "id": {
+      "element-6066-11e4-a52e-4f735466cecf": "2AAB62EF9D9948A3275FA2F8A1B68FE4_element_84"
+   }
+}
+[1703744869.813][INFO]: Waiting for pending navigations...
+[1703744869.813][INFO]: Done waiting for pending navigations. Status: ok
+[1703744869.823][INFO]: Waiting for pending navigations...
+[1703744869.823][INFO]: Done waiting for pending navigations. Status: ok
+[1703744869.823][INFO]: [3d77375218d99c902314e178a79bcf81] RESPONSE SwitchToFrame
+[1703744869.825][INFO]: [3d77375218d99c902314e178a79bcf81] COMMAND FindElement {
+   "using": "css selector",
+   "value": "body > form > table > tbody > tr:nth-child(4) > td:nth-child(2) > input[type=text]"
+}
+[1703744869.825][INFO]: Waiting for pending navigations...
+[1703744869.825][INFO]: Done waiting for pending navigations. Status: ok
+[1703744869.829][INFO]: Waiting for pending navigations...
+[1703744869.830][INFO]: Done waiting for pending navigations. Status: ok
+[1703744869.830][INFO]: [3d77375218d99c902314e178a79bcf81] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"body > form > table > tbody > tr:nth-child(4) > td:nth-child(2) > input[type=text]"}
+  (Session info: chrome=120.0.6099.130)
+[1703744870.042][INFO]: [3d77375218d99c902314e178a79bcf81] COMMAND FindElement {
+   "using": "css selector",
+   "value": "body > form > table > tbody > tr:nth-child(4) > td:nth-child(2) > input[type=text]"
+}
+[1703744870.042][INFO]: Waiting for pending navigations...
+[1703744870.042][INFO]: Done waiting for pending navigations. Status: ok
+[1703744870.047][INFO]: Waiting for pending navigations...
+[1703744870.047][INFO]: Done waiting for pending navigations. Status: ok
+[1703744870.047][INFO]: [3d77375218d99c902314e178a79bcf81] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"body > form > table > tbody > tr:nth-child(4) > td:nth-child(2) > input[type=text]"}
+  (Session info: chrome=120.0.6099.130)
+[1703744870.257][INFO]: [3d77375218d99c902314e178a79bcf81] COMMAND FindElement {
+   "using": "css selector",
+   "value": "body > form > table > tbody > tr:nth-child(4) > td:nth-child(2) > input[type=text]"
+}
+[1703744870.257][INFO]: Waiting for pending navigations...
+[1703744870.257][INFO]: Done waiting for pending navigations. Status: ok
+[1703744870.261][INFO]: Waiting for pending navigations...
+[1703744870.261][INFO]: Done waiting for pending navigations. Status: ok
+[1703744870.261][INFO]: [3d77375218d99c902314e178a79bcf81] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"body > form > table > tbody > tr:nth-child(4) > td:nth-child(2) > input[type=text]"}
+  (Session info: chrome=120.0.6099.130)
+[1703744870.471][INFO]: [3d77375218d99c902314e178a79bcf81] COMMAND FindElement {
+   "using": "css selector",
+   "value": "body > form > table > tbody > tr:nth-child(4) > td:nth-child(2) > input[type=text]"
+}
+[1703744870.471][INFO]: Waiting for pending navigations...
+[1703744870.472][INFO]: Done waiting for pending navigations. Status: ok
+[1703744870.476][INFO]: Waiting for pending navigations...
+[1703744870.476][INFO]: Done waiting for pending navigations. Status: ok
+[1703744870.476][INFO]: [3d77375218d99c902314e178a79bcf81] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"body > form > table > tbody > tr:nth-child(4) > td:nth-child(2) > input[type=text]"}
+  (Session info: chrome=120.0.6099.130)
+[1703744870.689][INFO]: [3d77375218d99c902314e178a79bcf81] COMMAND FindElement {
+   "using": "css selector",
+   "value": "body > form > table > tbody > tr:nth-child(4) > td:nth-child(2) > input[type=text]"
+}
+[1703744870.689][INFO]: Waiting for pending navigations...
+[1703744870.690][INFO]: Done waiting for pending navigations. Status: ok
+[1703744870.694][INFO]: Waiting for pending navigations...
+[1703744870.695][INFO]: Done waiting for pending navigations. Status: ok
+[1703744870.695][INFO]: [3d77375218d99c902314e178a79bcf81] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"body > form > table > tbody > tr:nth-child(4) > td:nth-child(2) > input[type=text]"}
+  (Session info: chrome=120.0.6099.130)
+[1703744870.904][INFO]: [3d77375218d99c902314e178a79bcf81] COMMAND FindElement {
+   "using": "css selector",
+   "value": "body > form > table > tbody > tr:nth-child(4) > td:nth-child(2) > input[type=text]"
+}
+[1703744870.904][INFO]: Waiting for pending navigations...
+[1703744870.904][INFO]: Done waiting for pending navigations. Status: ok
+[1703744870.908][INFO]: Waiting for pending navigations...
+[1703744870.909][INFO]: Done waiting for pending navigations. Status: ok
+[1703744870.909][INFO]: [3d77375218d99c902314e178a79bcf81] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"body > form > table > tbody > tr:nth-child(4) > td:nth-child(2) > input[type=text]"}
+  (Session info: chrome=120.0.6099.130)
+[1703744871.124][INFO]: [3d77375218d99c902314e178a79bcf81] COMMAND FindElement {
+   "using": "css selector",
+   "value": "body > form > table > tbody > tr:nth-child(4) > td:nth-child(2) > input[type=text]"
+}
+[1703744871.124][INFO]: Waiting for pending navigations...
+[1703744871.125][INFO]: Done waiting for pending navigations. Status: ok
+[1703744871.130][INFO]: Waiting for pending navigations...
+[1703744871.130][INFO]: Done waiting for pending navigations. Status: ok
+[1703744871.130][INFO]: [3d77375218d99c902314e178a79bcf81] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"body > form > table > tbody > tr:nth-child(4) > td:nth-child(2) > input[type=text]"}
+  (Session info: chrome=120.0.6099.130)
+[1703744871.337][INFO]: [3d77375218d99c902314e178a79bcf81] COMMAND FindElement {
+   "using": "css selector",
+   "value": "body > form > table > tbody > tr:nth-child(4) > td:nth-child(2) > input[type=text]"
+}
+[1703744871.338][INFO]: Waiting for pending navigations...
+[1703744871.338][INFO]: Done waiting for pending navigations. Status: ok
+[1703744871.342][INFO]: Waiting for pending navigations...
+[1703744871.342][INFO]: Done waiting for pending navigations. Status: ok
+[1703744871.342][INFO]: [3d77375218d99c902314e178a79bcf81] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"body > form > table > tbody > tr:nth-child(4) > td:nth-child(2) > input[type=text]"}
+  (Session info: chrome=120.0.6099.130)
+[1703744871.554][INFO]: [3d77375218d99c902314e178a79bcf81] COMMAND FindElement {
+   "using": "css selector",
+   "value": "body > form > table > tbody > tr:nth-child(4) > td:nth-child(2) > input[type=text]"
+}
+[1703744871.554][INFO]: Waiting for pending navigations...
+[1703744871.554][INFO]: Done waiting for pending navigations. Status: ok
+[1703744871.558][INFO]: Waiting for pending navigations...
+[1703744871.558][INFO]: Done waiting for pending navigations. Status: ok
+[1703744871.558][INFO]: [3d77375218d99c902314e178a79bcf81] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"body > form > table > tbody > tr:nth-child(4) > td:nth-child(2) > input[type=text]"}
+  (Session info: chrome=120.0.6099.130)
+[1703744871.769][INFO]: [3d77375218d99c902314e178a79bcf81] COMMAND FindElement {
+   "using": "css selector",
+   "value": "body > form > table > tbody > tr:nth-child(4) > td:nth-child(2) > input[type=text]"
+}
+[1703744871.770][INFO]: Waiting for pending navigations...
+[1703744871.770][INFO]: Done waiting for pending navigations. Status: ok
+[1703744871.774][INFO]: Waiting for pending navigations...
+[1703744871.774][INFO]: Done waiting for pending navigations. Status: ok
+[1703744871.774][INFO]: [3d77375218d99c902314e178a79bcf81] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"body > form > table > tbody > tr:nth-child(4) > td:nth-child(2) > input[type=text]"}
+  (Session info: chrome=120.0.6099.130)
+[1703744871.988][INFO]: [3d77375218d99c902314e178a79bcf81] COMMAND FindElement {
+   "using": "css selector",
+   "value": "body > form > table > tbody > tr:nth-child(4) > td:nth-child(2) > input[type=text]"
+}
+[1703744871.988][INFO]: Waiting for pending navigations...
+[1703744871.988][INFO]: Done waiting for pending navigations. Status: ok
+[1703744871.992][INFO]: Waiting for pending navigations...
+[1703744871.993][INFO]: Done waiting for pending navigations. Status: ok
+[1703744871.993][INFO]: [3d77375218d99c902314e178a79bcf81] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"body > form > table > tbody > tr:nth-child(4) > td:nth-child(2) > input[type=text]"}
+  (Session info: chrome=120.0.6099.130)
+[1703744872.205][INFO]: [3d77375218d99c902314e178a79bcf81] COMMAND FindElement {
+   "using": "css selector",
+   "value": "body > form > table > tbody > tr:nth-child(4) > td:nth-child(2) > input[type=text]"
+}
+[1703744872.205][INFO]: Waiting for pending navigations...
+[1703744872.206][INFO]: Done waiting for pending navigations. Status: ok
+[1703744872.210][INFO]: Waiting for pending navigations...
+[1703744872.210][INFO]: Done waiting for pending navigations. Status: ok
+[1703744872.210][INFO]: [3d77375218d99c902314e178a79bcf81] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"body > form > table > tbody > tr:nth-child(4) > td:nth-child(2) > input[type=text]"}
+  (Session info: chrome=120.0.6099.130)
+[1703744872.420][INFO]: [3d77375218d99c902314e178a79bcf81] COMMAND FindElement {
+   "using": "css selector",
+   "value": "body > form > table > tbody > tr:nth-child(4) > td:nth-child(2) > input[type=text]"
+}
+[1703744872.420][INFO]: Waiting for pending navigations...
+[1703744872.421][INFO]: Done waiting for pending navigations. Status: ok
+[1703744872.425][INFO]: Waiting for pending navigations...
+[1703744872.425][INFO]: Done waiting for pending navigations. Status: ok
+[1703744872.425][INFO]: [3d77375218d99c902314e178a79bcf81] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"body > form > table > tbody > tr:nth-child(4) > td:nth-child(2) > input[type=text]"}
+  (Session info: chrome=120.0.6099.130)
+[1703744872.637][INFO]: [3d77375218d99c902314e178a79bcf81] COMMAND FindElement {
+   "using": "css selector",
+   "value": "body > form > table > tbody > tr:nth-child(4) > td:nth-child(2) > input[type=text]"
+}
+[1703744872.637][INFO]: Waiting for pending navigations...
+[1703744872.637][INFO]: Done waiting for pending navigations. Status: ok
+[1703744872.641][INFO]: Waiting for pending navigations...
+[1703744872.641][INFO]: Done waiting for pending navigations. Status: ok
+[1703744872.641][INFO]: [3d77375218d99c902314e178a79bcf81] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"body > form > table > tbody > tr:nth-child(4) > td:nth-child(2) > input[type=text]"}
+  (Session info: chrome=120.0.6099.130)
+[1703744872.854][INFO]: [3d77375218d99c902314e178a79bcf81] COMMAND FindElement {
+   "using": "css selector",
+   "value": "body > form > table > tbody > tr:nth-child(4) > td:nth-child(2) > input[type=text]"
+}
+[1703744872.854][INFO]: Waiting for pending navigations...
+[1703744872.854][INFO]: Done waiting for pending navigations. Status: ok
+[1703744872.858][INFO]: Waiting for pending navigations...
+[1703744872.859][INFO]: Done waiting for pending navigations. Status: ok
+[1703744872.859][INFO]: [3d77375218d99c902314e178a79bcf81] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"body > form > table > tbody > tr:nth-child(4) > td:nth-child(2) > input[type=text]"}
+  (Session info: chrome=120.0.6099.130)
+[1703744873.074][INFO]: [3d77375218d99c902314e178a79bcf81] COMMAND FindElement {
+   "using": "css selector",
+   "value": "body > form > table > tbody > tr:nth-child(4) > td:nth-child(2) > input[type=text]"
+}
+[1703744873.074][INFO]: Waiting for pending navigations...
+[1703744873.075][INFO]: Done waiting for pending navigations. Status: ok
+[1703744873.078][INFO]: Waiting for pending navigations...
+[1703744873.078][INFO]: Done waiting for pending navigations. Status: ok
+[1703744873.078][INFO]: [3d77375218d99c902314e178a79bcf81] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"body > form > table > tbody > tr:nth-child(4) > td:nth-child(2) > input[type=text]"}
+  (Session info: chrome=120.0.6099.130)
+[1703744873.291][INFO]: [3d77375218d99c902314e178a79bcf81] COMMAND FindElement {
+   "using": "css selector",
+   "value": "body > form > table > tbody > tr:nth-child(4) > td:nth-child(2) > input[type=text]"
+}
+[1703744873.291][INFO]: Waiting for pending navigations...
+[1703744873.292][INFO]: Done waiting for pending navigations. Status: ok
+[1703744873.296][INFO]: Waiting for pending navigations...
+[1703744873.296][INFO]: Done waiting for pending navigations. Status: ok
+[1703744873.296][INFO]: [3d77375218d99c902314e178a79bcf81] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"body > form > table > tbody > tr:nth-child(4) > td:nth-child(2) > input[type=text]"}
+  (Session info: chrome=120.0.6099.130)
+[1703744873.505][INFO]: [3d77375218d99c902314e178a79bcf81] COMMAND FindElement {
+   "using": "css selector",
+   "value": "body > form > table > tbody > tr:nth-child(4) > td:nth-child(2) > input[type=text]"
+}
+[1703744873.505][INFO]: Waiting for pending navigations...
+[1703744873.506][INFO]: Done waiting for pending navigations. Status: ok
+[1703744873.511][INFO]: Waiting for pending navigations...
+[1703744873.511][INFO]: Done waiting for pending navigations. Status: ok
+[1703744873.511][INFO]: [3d77375218d99c902314e178a79bcf81] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"body > form > table > tbody > tr:nth-child(4) > td:nth-child(2) > input[type=text]"}
+  (Session info: chrome=120.0.6099.130)
+[1703744873.721][INFO]: [3d77375218d99c902314e178a79bcf81] COMMAND FindElement {
+   "using": "css selector",
+   "value": "body > form > table > tbody > tr:nth-child(4) > td:nth-child(2) > input[type=text]"
+}
+[1703744873.721][INFO]: Waiting for pending navigations...
+[1703744873.722][INFO]: Done waiting for pending navigations. Status: ok
+[1703744873.726][INFO]: Waiting for pending navigations...
+[1703744873.726][INFO]: Done waiting for pending navigations. Status: ok
+[1703744873.726][INFO]: [3d77375218d99c902314e178a79bcf81] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"body > form > table > tbody > tr:nth-child(4) > td:nth-child(2) > input[type=text]"}
+  (Session info: chrome=120.0.6099.130)
+[1703744873.938][INFO]: [3d77375218d99c902314e178a79bcf81] COMMAND ExecuteScript {
+   "args": [  ],
+   "script": "var source = document.documentElement.outerHTML; \nif (!source) { source = new XMLSerializer().serializeToString(document); }\nreturn source;"
+}
+[1703744873.938][INFO]: Waiting for pending navigations...
+[1703744873.938][INFO]: Done waiting for pending navigations. Status: ok
+[1703744873.940][INFO]: Waiting for pending navigations...
+[1703744873.940][INFO]: Done waiting for pending navigations. Status: ok
+[1703744873.940][INFO]: [3d77375218d99c902314e178a79bcf81] RESPONSE ExecuteScript "\u003Chtml>\u003Chead>\u003Ctitle>Web Tours\u003C/title>\n   \u003C!-- Frame Set -->\n   \u003C/head>\u003Cframeset cols=\"160,*\" border=\"1\" frameborder=\"1\">\n      \u003C!-- Navigation Frame -->\n      \u003Cframe src=\"nav.pl?in=home\" name=\"navba..."
+[1703744873.943][INFO]: [3d77375218d99c902314e178a79bcf81] COMMAND Screenshot {
+}
+[1703744873.943][INFO]: Waiting for pending navigations...
+[1703744873.944][INFO]: Done waiting for pending navigations. Status: ok
+[1703744874.028][INFO]: Waiting for pending navigations...
+[1703744874.029][INFO]: Done waiting for pending navigations. Status: ok
+[1703744874.029][INFO]: [3d77375218d99c902314e178a79bcf81] RESPONSE Screenshot "iVBORw0KGgoAAAANSUhEUgAABUYAAAKiCAYAAAAaMwZ7AAAAAXNSR0IArs4c6QAAIABJREFUeJzs3X9UnOWB9/+PpqlN0kBTnWUnimBK0mCojYygpYobTVawmYeCh2r3xGa7m5IcNgZzZImrX+paVh+l9KGxLI00u62ax2p5BCmpwU2qW3RRiWBqUaxiMgSTkR01h..."
+[1703744874.041][INFO]: [3d77375218d99c902314e178a79bcf81] COMMAND GetTitle {
+}
+[1703744874.041][INFO]: Waiting for pending navigations...
+[1703744874.041][INFO]: Done waiting for pending navigations. Status: ok
+[1703744874.043][INFO]: Waiting for pending navigations...
+[1703744874.043][INFO]: Done waiting for pending navigations. Status: ok
+[1703744874.043][INFO]: [3d77375218d99c902314e178a79bcf81] RESPONSE GetTitle "Web Tours"
+[1703744874.045][INFO]: [3d77375218d99c902314e178a79bcf81] COMMAND Navigate {
+   "url": "http://192.168.2.169:1080/webtours/"
+}
+[1703744874.045][INFO]: Waiting for pending navigations...
+[1703744874.046][INFO]: Done waiting for pending navigations. Status: ok
+[1703744874.057][INFO]: Waiting for pending navigations...
+[1703744874.229][INFO]: Done waiting for pending navigations. Status: ok
+[1703744874.229][INFO]: [3d77375218d99c902314e178a79bcf81] RESPONSE Navigate
+[1703744874.231][INFO]: [3d77375218d99c902314e178a79bcf81] COMMAND FindElements {
+   "using": "css selector",
+   "value": "frame[name='body'],iframe[name='body']"
+}
+[1703744874.231][INFO]: Waiting for pending navigations...
+[1703744874.231][INFO]: Done waiting for pending navigations. Status: ok
+[1703744874.235][INFO]: Waiting for pending navigations...
+[1703744874.235][INFO]: Done waiting for pending navigations. Status: ok
+[1703744874.235][INFO]: [3d77375218d99c902314e178a79bcf81] RESPONSE FindElements [ {
+   "element-6066-11e4-a52e-4f735466cecf": "82671A0BA11CD7FF06C2D491C914B059_element_96"
+} ]
+[1703744874.237][INFO]: [3d77375218d99c902314e178a79bcf81] COMMAND SwitchToFrame {
+   "id": {
+      "element-6066-11e4-a52e-4f735466cecf": "82671A0BA11CD7FF06C2D491C914B059_element_96"
+   }
+}
+[1703744874.237][INFO]: Waiting for pending navigations...
+[1703744874.237][INFO]: Done waiting for pending navigations. Status: ok
+[1703744874.247][INFO]: Waiting for pending navigations...
+[1703744874.247][INFO]: Done waiting for pending navigations. Status: ok
+[1703744874.247][INFO]: [3d77375218d99c902314e178a79bcf81] RESPONSE SwitchToFrame
+[1703744874.249][INFO]: [3d77375218d99c902314e178a79bcf81] COMMAND FindElement {
+   "using": "css selector",
+   "value": "body > form > table > tbody > tr:nth-child(4) > td:nth-child(2) > input[type=text]"
+}
+[1703744874.249][INFO]: Waiting for pending navigations...
+[1703744874.249][INFO]: Done waiting for pending navigations. Status: ok
+[1703744874.253][INFO]: Waiting for pending navigations...
+[1703744874.254][INFO]: Done waiting for pending navigations. Status: ok
+[1703744874.254][INFO]: [3d77375218d99c902314e178a79bcf81] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"body > form > table > tbody > tr:nth-child(4) > td:nth-child(2) > input[type=text]"}
+  (Session info: chrome=120.0.6099.130)
+[1703744874.460][INFO]: [3d77375218d99c902314e178a79bcf81] COMMAND FindElement {
+   "using": "css selector",
+   "value": "body > form > table > tbody > tr:nth-child(4) > td:nth-child(2) > input[type=text]"
+}
+[1703744874.460][INFO]: Waiting for pending navigations...
+[1703744874.460][INFO]: Done waiting for pending navigations. Status: ok
+[1703744874.464][INFO]: Waiting for pending navigations...
+[1703744874.465][INFO]: Done waiting for pending navigations. Status: ok
+[1703744874.465][INFO]: [3d77375218d99c902314e178a79bcf81] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"body > form > table > tbody > tr:nth-child(4) > td:nth-child(2) > input[type=text]"}
+  (Session info: chrome=120.0.6099.130)
+[1703744874.674][INFO]: [3d77375218d99c902314e178a79bcf81] COMMAND FindElement {
+   "using": "css selector",
+   "value": "body > form > table > tbody > tr:nth-child(4) > td:nth-child(2) > input[type=text]"
+}
+[1703744874.674][INFO]: Waiting for pending navigations...
+[1703744874.675][INFO]: Done waiting for pending navigations. Status: ok
+[1703744874.679][INFO]: Waiting for pending navigations...
+[1703744874.679][INFO]: Done waiting for pending navigations. Status: ok
+[1703744874.679][INFO]: [3d77375218d99c902314e178a79bcf81] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"body > form > table > tbody > tr:nth-child(4) > td:nth-child(2) > input[type=text]"}
+  (Session info: chrome=120.0.6099.130)
+[1703744874.890][INFO]: [3d77375218d99c902314e178a79bcf81] COMMAND FindElement {
+   "using": "css selector",
+   "value": "body > form > table > tbody > tr:nth-child(4) > td:nth-child(2) > input[type=text]"
+}
+[1703744874.890][INFO]: Waiting for pending navigations...
+[1703744874.891][INFO]: Done waiting for pending navigations. Status: ok
+[1703744874.894][INFO]: Waiting for pending navigations...
+[1703744874.894][INFO]: Done waiting for pending navigations. Status: ok
+[1703744874.895][INFO]: [3d77375218d99c902314e178a79bcf81] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"body > form > table > tbody > tr:nth-child(4) > td:nth-child(2) > input[type=text]"}
+  (Session info: chrome=120.0.6099.130)
+[1703744875.107][INFO]: [3d77375218d99c902314e178a79bcf81] COMMAND FindElement {
+   "using": "css selector",
+   "value": "body > form > table > tbody > tr:nth-child(4) > td:nth-child(2) > input[type=text]"
+}
+[1703744875.107][INFO]: Waiting for pending navigations...
+[1703744875.108][INFO]: Done waiting for pending navigations. Status: ok
+[1703744875.111][INFO]: Waiting for pending navigations...
+[1703744875.112][INFO]: Done waiting for pending navigations. Status: ok
+[1703744875.112][INFO]: [3d77375218d99c902314e178a79bcf81] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"body > form > table > tbody > tr:nth-child(4) > td:nth-child(2) > input[type=text]"}
+  (Session info: chrome=120.0.6099.130)
+[1703744875.324][INFO]: [3d77375218d99c902314e178a79bcf81] COMMAND FindElement {
+   "using": "css selector",
+   "value": "body > form > table > tbody > tr:nth-child(4) > td:nth-child(2) > input[type=text]"
+}
+[1703744875.325][INFO]: Waiting for pending navigations...
+[1703744875.325][INFO]: Done waiting for pending navigations. Status: ok
+[1703744875.329][INFO]: Waiting for pending navigations...
+[1703744875.329][INFO]: Done waiting for pending navigations. Status: ok
+[1703744875.329][INFO]: [3d77375218d99c902314e178a79bcf81] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"body > form > table > tbody > tr:nth-child(4) > td:nth-child(2) > input[type=text]"}
+  (Session info: chrome=120.0.6099.130)
+[1703744875.541][INFO]: [3d77375218d99c902314e178a79bcf81] COMMAND FindElement {
+   "using": "css selector",
+   "value": "body > form > table > tbody > tr:nth-child(4) > td:nth-child(2) > input[type=text]"
+}
+[1703744875.541][INFO]: Waiting for pending navigations...
+[1703744875.542][INFO]: Done waiting for pending navigations. Status: ok
+[1703744875.546][INFO]: Waiting for pending navigations...
+[1703744875.546][INFO]: Done waiting for pending navigations. Status: ok
+[1703744875.546][INFO]: [3d77375218d99c902314e178a79bcf81] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"body > form > table > tbody > tr:nth-child(4) > td:nth-child(2) > input[type=text]"}
+  (Session info: chrome=120.0.6099.130)
+[1703744875.759][INFO]: [3d77375218d99c902314e178a79bcf81] COMMAND FindElement {
+   "using": "css selector",
+   "value": "body > form > table > tbody > tr:nth-child(4) > td:nth-child(2) > input[type=text]"
+}
+[1703744875.759][INFO]: Waiting for pending navigations...
+[1703744875.759][INFO]: Done waiting for pending navigations. Status: ok
+[1703744875.763][INFO]: Waiting for pending navigations...
+[1703744875.763][INFO]: Done waiting for pending navigations. Status: ok
+[1703744875.763][INFO]: [3d77375218d99c902314e178a79bcf81] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"body > form > table > tbody > tr:nth-child(4) > td:nth-child(2) > input[type=text]"}
+  (Session info: chrome=120.0.6099.130)
+[1703744875.972][INFO]: [3d77375218d99c902314e178a79bcf81] COMMAND FindElement {
+   "using": "css selector",
+   "value": "body > form > table > tbody > tr:nth-child(4) > td:nth-child(2) > input[type=text]"
+}
+[1703744875.972][INFO]: Waiting for pending navigations...
+[1703744875.973][INFO]: Done waiting for pending navigations. Status: ok
+[1703744875.977][INFO]: Waiting for pending navigations...
+[1703744875.977][INFO]: Done waiting for pending navigations. Status: ok
+[1703744875.977][INFO]: [3d77375218d99c902314e178a79bcf81] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"body > form > table > tbody > tr:nth-child(4) > td:nth-child(2) > input[type=text]"}
+  (Session info: chrome=120.0.6099.130)
+[1703744876.189][INFO]: [3d77375218d99c902314e178a79bcf81] COMMAND FindElement {
+   "using": "css selector",
+   "value": "body > form > table > tbody > tr:nth-child(4) > td:nth-child(2) > input[type=text]"
+}
+[1703744876.189][INFO]: Waiting for pending navigations...
+[1703744876.190][INFO]: Done waiting for pending navigations. Status: ok
+[1703744876.194][INFO]: Waiting for pending navigations...
+[1703744876.194][INFO]: Done waiting for pending navigations. Status: ok
+[1703744876.194][INFO]: [3d77375218d99c902314e178a79bcf81] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"body > form > table > tbody > tr:nth-child(4) > td:nth-child(2) > input[type=text]"}
+  (Session info: chrome=120.0.6099.130)
+[1703744876.408][INFO]: [3d77375218d99c902314e178a79bcf81] COMMAND FindElement {
+   "using": "css selector",
+   "value": "body > form > table > tbody > tr:nth-child(4) > td:nth-child(2) > input[type=text]"
+}
+[1703744876.408][INFO]: Waiting for pending navigations...
+[1703744876.408][INFO]: Done waiting for pending navigations. Status: ok
+[1703744876.412][INFO]: Waiting for pending navigations...
+[1703744876.412][INFO]: Done waiting for pending navigations. Status: ok
+[1703744876.412][INFO]: [3d77375218d99c902314e178a79bcf81] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"body > form > table > tbody > tr:nth-child(4) > td:nth-child(2) > input[type=text]"}
+  (Session info: chrome=120.0.6099.130)
+[1703744876.623][INFO]: [3d77375218d99c902314e178a79bcf81] COMMAND FindElement {
+   "using": "css selector",
+   "value": "body > form > table > tbody > tr:nth-child(4) > td:nth-child(2) > input[type=text]"
+}
+[1703744876.623][INFO]: Waiting for pending navigations...
+[1703744876.624][INFO]: Done waiting for pending navigations. Status: ok
+[1703744876.627][INFO]: Waiting for pending navigations...
+[1703744876.627][INFO]: Done waiting for pending navigations. Status: ok
+[1703744876.627][INFO]: [3d77375218d99c902314e178a79bcf81] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"body > form > table > tbody > tr:nth-child(4) > td:nth-child(2) > input[type=text]"}
+  (Session info: chrome=120.0.6099.130)
+[1703744876.840][INFO]: [3d77375218d99c902314e178a79bcf81] COMMAND FindElement {
+   "using": "css selector",
+   "value": "body > form > table > tbody > tr:nth-child(4) > td:nth-child(2) > input[type=text]"
+}
+[1703744876.840][INFO]: Waiting for pending navigations...
+[1703744876.841][INFO]: Done waiting for pending navigations. Status: ok
+[1703744876.846][INFO]: Waiting for pending navigations...
+[1703744876.846][INFO]: Done waiting for pending navigations. Status: ok
+[1703744876.846][INFO]: [3d77375218d99c902314e178a79bcf81] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"body > form > table > tbody > tr:nth-child(4) > td:nth-child(2) > input[type=text]"}
+  (Session info: chrome=120.0.6099.130)
+[1703744877.058][INFO]: [3d77375218d99c902314e178a79bcf81] COMMAND FindElement {
+   "using": "css selector",
+   "value": "body > form > table > tbody > tr:nth-child(4) > td:nth-child(2) > input[type=text]"
+}
+[1703744877.058][INFO]: Waiting for pending navigations...
+[1703744877.059][INFO]: Done waiting for pending navigations. Status: ok
+[1703744877.063][INFO]: Waiting for pending navigations...
+[1703744877.063][INFO]: Done waiting for pending navigations. Status: ok
+[1703744877.063][INFO]: [3d77375218d99c902314e178a79bcf81] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"body > form > table > tbody > tr:nth-child(4) > td:nth-child(2) > input[type=text]"}
+  (Session info: chrome=120.0.6099.130)
+[1703744877.272][INFO]: [3d77375218d99c902314e178a79bcf81] COMMAND FindElement {
+   "using": "css selector",
+   "value": "body > form > table > tbody > tr:nth-child(4) > td:nth-child(2) > input[type=text]"
+}
+[1703744877.273][INFO]: Waiting for pending navigations...
+[1703744877.273][INFO]: Done waiting for pending navigations. Status: ok
+[1703744877.277][INFO]: Waiting for pending navigations...
+[1703744877.277][INFO]: Done waiting for pending navigations. Status: ok
+[1703744877.277][INFO]: [3d77375218d99c902314e178a79bcf81] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"body > form > table > tbody > tr:nth-child(4) > td:nth-child(2) > input[type=text]"}
+  (Session info: chrome=120.0.6099.130)
+[1703744877.489][INFO]: [3d77375218d99c902314e178a79bcf81] COMMAND FindElement {
+   "using": "css selector",
+   "value": "body > form > table > tbody > tr:nth-child(4) > td:nth-child(2) > input[type=text]"
+}
+[1703744877.489][INFO]: Waiting for pending navigations...
+[1703744877.489][INFO]: Done waiting for pending navigations. Status: ok
+[1703744877.493][INFO]: Waiting for pending navigations...
+[1703744877.493][INFO]: Done waiting for pending navigations. Status: ok
+[1703744877.493][INFO]: [3d77375218d99c902314e178a79bcf81] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"body > form > table > tbody > tr:nth-child(4) > td:nth-child(2) > input[type=text]"}
+  (Session info: chrome=120.0.6099.130)
+[1703744877.710][INFO]: [3d77375218d99c902314e178a79bcf81] COMMAND FindElement {
+   "using": "css selector",
+   "value": "body > form > table > tbody > tr:nth-child(4) > td:nth-child(2) > input[type=text]"
+}
+[1703744877.710][INFO]: Waiting for pending navigations...
+[1703744877.712][INFO]: Done waiting for pending navigations. Status: ok
+[1703744877.716][INFO]: Waiting for pending navigations...
+[1703744877.716][INFO]: Done waiting for pending navigations. Status: ok
+[1703744877.716][INFO]: [3d77375218d99c902314e178a79bcf81] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"body > form > table > tbody > tr:nth-child(4) > td:nth-child(2) > input[type=text]"}
+  (Session info: chrome=120.0.6099.130)
+[1703744877.929][INFO]: [3d77375218d99c902314e178a79bcf81] COMMAND FindElement {
+   "using": "css selector",
+   "value": "body > form > table > tbody > tr:nth-child(4) > td:nth-child(2) > input[type=text]"
+}
+[1703744877.929][INFO]: Waiting for pending navigations...
+[1703744877.929][INFO]: Done waiting for pending navigations. Status: ok
+[1703744877.933][INFO]: Waiting for pending navigations...
+[1703744877.933][INFO]: Done waiting for pending navigations. Status: ok
+[1703744877.933][INFO]: [3d77375218d99c902314e178a79bcf81] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"body > form > table > tbody > tr:nth-child(4) > td:nth-child(2) > input[type=text]"}
+  (Session info: chrome=120.0.6099.130)
+[1703744878.146][INFO]: [3d77375218d99c902314e178a79bcf81] COMMAND FindElement {
+   "using": "css selector",
+   "value": "body > form > table > tbody > tr:nth-child(4) > td:nth-child(2) > input[type=text]"
+}
+[1703744878.147][INFO]: Waiting for pending navigations...
+[1703744878.147][INFO]: Done waiting for pending navigations. Status: ok
+[1703744878.154][INFO]: Waiting for pending navigations...
+[1703744878.155][INFO]: Done waiting for pending navigations. Status: ok
+[1703744878.155][INFO]: [3d77375218d99c902314e178a79bcf81] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"body > form > table > tbody > tr:nth-child(4) > td:nth-child(2) > input[type=text]"}
+  (Session info: chrome=120.0.6099.130)
+[1703744878.365][INFO]: [3d77375218d99c902314e178a79bcf81] COMMAND ExecuteScript {
+   "args": [  ],
+   "script": "var source = document.documentElement.outerHTML; \nif (!source) { source = new XMLSerializer().serializeToString(document); }\nreturn source;"
+}
+[1703744878.365][INFO]: Waiting for pending navigations...
+[1703744878.366][INFO]: Done waiting for pending navigations. Status: ok
+[1703744878.368][INFO]: Waiting for pending navigations...
+[1703744878.368][INFO]: Done waiting for pending navigations. Status: ok
+[1703744878.368][INFO]: [3d77375218d99c902314e178a79bcf81] RESPONSE ExecuteScript "\u003Chtml>\u003Chead>\u003Ctitle>Web Tours\u003C/title>\n   \u003C!-- Frame Set -->\n   \u003C/head>\u003Cframeset cols=\"160,*\" border=\"1\" frameborder=\"1\">\n      \u003C!-- Navigation Frame -->\n      \u003Cframe src=\"nav.pl?in=home\" name=\"navba..."
+[1703744878.371][INFO]: [3d77375218d99c902314e178a79bcf81] COMMAND Screenshot {
+}
+[1703744878.371][INFO]: Waiting for pending navigations...
+[1703744878.371][INFO]: Done waiting for pending navigations. Status: ok
+[1703744878.477][INFO]: Waiting for pending navigations...
+[1703744878.478][INFO]: Done waiting for pending navigations. Status: ok
+[1703744878.478][INFO]: [3d77375218d99c902314e178a79bcf81] RESPONSE Screenshot "iVBORw0KGgoAAAANSUhEUgAABUYAAAKiCAYAAAAaMwZ7AAAAAXNSR0IArs4c6QAAIABJREFUeJzs3X9UnOWB9/+PpqlN0kBTnWUnimBK0mCojYygpYobTVawmYeCh2r3xGa7m5IcNgZzZImrX+paVh+l9KGxLI00u62ax2p5BCmpwU2qW3RRiWBqUaxiMgSTkR01h..."
+[1703744878.489][INFO]: [3d77375218d99c902314e178a79bcf81] COMMAND GetTitle {
+}
+[1703744878.489][INFO]: Waiting for pending navigations...
+[1703744878.489][INFO]: Done waiting for pending navigations. Status: ok
+[1703744878.491][INFO]: Waiting for pending navigations...
+[1703744878.492][INFO]: Done waiting for pending navigations. Status: ok
+[1703744878.492][INFO]: [3d77375218d99c902314e178a79bcf81] RESPONSE GetTitle "Web Tours"
+[1703744878.493][INFO]: [3d77375218d99c902314e178a79bcf81] COMMAND Navigate {
+   "url": "http://192.168.2.169:1080/webtours/"
+}
+[1703744878.493][INFO]: Waiting for pending navigations...
+[1703744878.494][INFO]: Done waiting for pending navigations. Status: ok
+[1703744878.506][INFO]: Waiting for pending navigations...
+[1703744878.694][INFO]: Done waiting for pending navigations. Status: ok
+[1703744878.694][INFO]: [3d77375218d99c902314e178a79bcf81] RESPONSE Navigate
+[1703744878.697][INFO]: [3d77375218d99c902314e178a79bcf81] COMMAND FindElements {
+   "using": "css selector",
+   "value": "frame[name='body'],iframe[name='body']"
+}
+[1703744878.697][INFO]: Waiting for pending navigations...
+[1703744878.697][INFO]: Done waiting for pending navigations. Status: ok
+[1703744878.701][INFO]: Waiting for pending navigations...
+[1703744878.702][INFO]: Done waiting for pending navigations. Status: ok
+[1703744878.702][INFO]: [3d77375218d99c902314e178a79bcf81] RESPONSE FindElements [ {
+   "element-6066-11e4-a52e-4f735466cecf": "7443247C954E4958BBAF546DE667CC3C_element_110"
+} ]
+[1703744878.704][INFO]: [3d77375218d99c902314e178a79bcf81] COMMAND SwitchToFrame {
+   "id": {
+      "element-6066-11e4-a52e-4f735466cecf": "7443247C954E4958BBAF546DE667CC3C_element_110"
+   }
+}
+[1703744878.704][INFO]: Waiting for pending navigations...
+[1703744878.705][INFO]: Done waiting for pending navigations. Status: ok
+[1703744878.716][INFO]: Waiting for pending navigations...
+[1703744878.716][INFO]: Done waiting for pending navigations. Status: ok
+[1703744878.716][INFO]: [3d77375218d99c902314e178a79bcf81] RESPONSE SwitchToFrame
+[1703744878.718][INFO]: [3d77375218d99c902314e178a79bcf81] COMMAND FindElement {
+   "using": "css selector",
+   "value": "body > form > table > tbody > tr:nth-child(4) > td:nth-child(2) > input[type=text]"
+}
+[1703744878.718][INFO]: Waiting for pending navigations...
+[1703744878.718][INFO]: Done waiting for pending navigations. Status: ok
+[1703744878.723][INFO]: Waiting for pending navigations...
+[1703744878.725][INFO]: Done waiting for pending navigations. Status: ok
+[1703744878.725][INFO]: [3d77375218d99c902314e178a79bcf81] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"body > form > table > tbody > tr:nth-child(4) > td:nth-child(2) > input[type=text]"}
+  (Session info: chrome=120.0.6099.130)
+[1703744878.937][INFO]: [3d77375218d99c902314e178a79bcf81] COMMAND FindElement {
+   "using": "css selector",
+   "value": "body > form > table > tbody > tr:nth-child(4) > td:nth-child(2) > input[type=text]"
+}
+[1703744878.937][INFO]: Waiting for pending navigations...
+[1703744878.939][INFO]: Done waiting for pending navigations. Status: ok
+[1703744878.945][INFO]: Waiting for pending navigations...
+[1703744878.945][INFO]: Done waiting for pending navigations. Status: ok
+[1703744878.945][INFO]: [3d77375218d99c902314e178a79bcf81] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"body > form > table > tbody > tr:nth-child(4) > td:nth-child(2) > input[type=text]"}
+  (Session info: chrome=120.0.6099.130)
+[1703744879.154][INFO]: [3d77375218d99c902314e178a79bcf81] COMMAND FindElement {
+   "using": "css selector",
+   "value": "body > form > table > tbody > tr:nth-child(4) > td:nth-child(2) > input[type=text]"
+}
+[1703744879.154][INFO]: Waiting for pending navigations...
+[1703744879.155][INFO]: Done waiting for pending navigations. Status: ok
+[1703744879.160][INFO]: Waiting for pending navigations...
+[1703744879.160][INFO]: Done waiting for pending navigations. Status: ok
+[1703744879.160][INFO]: [3d77375218d99c902314e178a79bcf81] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"body > form > table > tbody > tr:nth-child(4) > td:nth-child(2) > input[type=text]"}
+  (Session info: chrome=120.0.6099.130)
+[1703744879.371][INFO]: [3d77375218d99c902314e178a79bcf81] COMMAND FindElement {
+   "using": "css selector",
+   "value": "body > form > table > tbody > tr:nth-child(4) > td:nth-child(2) > input[type=text]"
+}
+[1703744879.371][INFO]: Waiting for pending navigations...
+[1703744879.372][INFO]: Done waiting for pending navigations. Status: ok
+[1703744879.376][INFO]: Waiting for pending navigations...
+[1703744879.377][INFO]: Done waiting for pending navigations. Status: ok
+[1703744879.377][INFO]: [3d77375218d99c902314e178a79bcf81] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"body > form > table > tbody > tr:nth-child(4) > td:nth-child(2) > input[type=text]"}
+  (Session info: chrome=120.0.6099.130)
+[1703744879.589][INFO]: [3d77375218d99c902314e178a79bcf81] COMMAND FindElement {
+   "using": "css selector",
+   "value": "body > form > table > tbody > tr:nth-child(4) > td:nth-child(2) > input[type=text]"
+}
+[1703744879.589][INFO]: Waiting for pending navigations...
+[1703744879.589][INFO]: Done waiting for pending navigations. Status: ok
+[1703744879.593][INFO]: Waiting for pending navigations...
+[1703744879.594][INFO]: Done waiting for pending navigations. Status: ok
+[1703744879.594][INFO]: [3d77375218d99c902314e178a79bcf81] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"body > form > table > tbody > tr:nth-child(4) > td:nth-child(2) > input[type=text]"}
+  (Session info: chrome=120.0.6099.130)
+[1703744879.808][INFO]: [3d77375218d99c902314e178a79bcf81] COMMAND FindElement {
+   "using": "css selector",
+   "value": "body > form > table > tbody > tr:nth-child(4) > td:nth-child(2) > input[type=text]"
+}
+[1703744879.809][INFO]: Waiting for pending navigations...
+[1703744879.809][INFO]: Done waiting for pending navigations. Status: ok
+[1703744879.813][INFO]: Waiting for pending navigations...
+[1703744879.813][INFO]: Done waiting for pending navigations. Status: ok
+[1703744879.813][INFO]: [3d77375218d99c902314e178a79bcf81] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"body > form > table > tbody > tr:nth-child(4) > td:nth-child(2) > input[type=text]"}
+  (Session info: chrome=120.0.6099.130)
+[1703744880.025][INFO]: [3d77375218d99c902314e178a79bcf81] COMMAND FindElement {
+   "using": "css selector",
+   "value": "body > form > table > tbody > tr:nth-child(4) > td:nth-child(2) > input[type=text]"
+}
+[1703744880.025][INFO]: Waiting for pending navigations...
+[1703744880.025][INFO]: Done waiting for pending navigations. Status: ok
+[1703744880.029][INFO]: Waiting for pending navigations...
+[1703744880.029][INFO]: Done waiting for pending navigations. Status: ok
+[1703744880.029][INFO]: [3d77375218d99c902314e178a79bcf81] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"body > form > table > tbody > tr:nth-child(4) > td:nth-child(2) > input[type=text]"}
+  (Session info: chrome=120.0.6099.130)
+[1703744880.243][INFO]: [3d77375218d99c902314e178a79bcf81] COMMAND FindElement {
+   "using": "css selector",
+   "value": "body > form > table > tbody > tr:nth-child(4) > td:nth-child(2) > input[type=text]"
+}
+[1703744880.243][INFO]: Waiting for pending navigations...
+[1703744880.243][INFO]: Done waiting for pending navigations. Status: ok
+[1703744880.247][INFO]: Waiting for pending navigations...
+[1703744880.247][INFO]: Done waiting for pending navigations. Status: ok
+[1703744880.247][INFO]: [3d77375218d99c902314e178a79bcf81] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"body > form > table > tbody > tr:nth-child(4) > td:nth-child(2) > input[type=text]"}
+  (Session info: chrome=120.0.6099.130)
+[1703744880.460][INFO]: [3d77375218d99c902314e178a79bcf81] COMMAND FindElement {
+   "using": "css selector",
+   "value": "body > form > table > tbody > tr:nth-child(4) > td:nth-child(2) > input[type=text]"
+}
+[1703744880.460][INFO]: Waiting for pending navigations...
+[1703744880.460][INFO]: Done waiting for pending navigations. Status: ok
+[1703744880.464][INFO]: Waiting for pending navigations...
+[1703744880.465][INFO]: Done waiting for pending navigations. Status: ok
+[1703744880.465][INFO]: [3d77375218d99c902314e178a79bcf81] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"body > form > table > tbody > tr:nth-child(4) > td:nth-child(2) > input[type=text]"}
+  (Session info: chrome=120.0.6099.130)
+[1703744880.677][INFO]: [3d77375218d99c902314e178a79bcf81] COMMAND FindElement {
+   "using": "css selector",
+   "value": "body > form > table > tbody > tr:nth-child(4) > td:nth-child(2) > input[type=text]"
+}
+[1703744880.677][INFO]: Waiting for pending navigations...
+[1703744880.678][INFO]: Done waiting for pending navigations. Status: ok
+[1703744880.682][INFO]: Waiting for pending navigations...
+[1703744880.682][INFO]: Done waiting for pending navigations. Status: ok
+[1703744880.682][INFO]: [3d77375218d99c902314e178a79bcf81] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"body > form > table > tbody > tr:nth-child(4) > td:nth-child(2) > input[type=text]"}
+  (Session info: chrome=120.0.6099.130)
+[1703744880.894][INFO]: [3d77375218d99c902314e178a79bcf81] COMMAND FindElement {
+   "using": "css selector",
+   "value": "body > form > table > tbody > tr:nth-child(4) > td:nth-child(2) > input[type=text]"
+}
+[1703744880.894][INFO]: Waiting for pending navigations...
+[1703744880.895][INFO]: Done waiting for pending navigations. Status: ok
+[1703744880.899][INFO]: Waiting for pending navigations...
+[1703744880.899][INFO]: Done waiting for pending navigations. Status: ok
+[1703744880.899][INFO]: [3d77375218d99c902314e178a79bcf81] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"body > form > table > tbody > tr:nth-child(4) > td:nth-child(2) > input[type=text]"}
+  (Session info: chrome=120.0.6099.130)
+[1703744881.109][INFO]: [3d77375218d99c902314e178a79bcf81] COMMAND FindElement {
+   "using": "css selector",
+   "value": "body > form > table > tbody > tr:nth-child(4) > td:nth-child(2) > input[type=text]"
+}
+[1703744881.109][INFO]: Waiting for pending navigations...
+[1703744881.110][INFO]: Done waiting for pending navigations. Status: ok
+[1703744881.114][INFO]: Waiting for pending navigations...
+[1703744881.114][INFO]: Done waiting for pending navigations. Status: ok
+[1703744881.114][INFO]: [3d77375218d99c902314e178a79bcf81] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"body > form > table > tbody > tr:nth-child(4) > td:nth-child(2) > input[type=text]"}
+  (Session info: chrome=120.0.6099.130)
+[1703744881.326][INFO]: [3d77375218d99c902314e178a79bcf81] COMMAND FindElement {
+   "using": "css selector",
+   "value": "body > form > table > tbody > tr:nth-child(4) > td:nth-child(2) > input[type=text]"
+}
+[1703744881.326][INFO]: Waiting for pending navigations...
+[1703744881.326][INFO]: Done waiting for pending navigations. Status: ok
+[1703744881.330][INFO]: Waiting for pending navigations...
+[1703744881.330][INFO]: Done waiting for pending navigations. Status: ok
+[1703744881.330][INFO]: [3d77375218d99c902314e178a79bcf81] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"body > form > table > tbody > tr:nth-child(4) > td:nth-child(2) > input[type=text]"}
+  (Session info: chrome=120.0.6099.130)
+[1703744881.543][INFO]: [3d77375218d99c902314e178a79bcf81] COMMAND FindElement {
+   "using": "css selector",
+   "value": "body > form > table > tbody > tr:nth-child(4) > td:nth-child(2) > input[type=text]"
+}
+[1703744881.543][INFO]: Waiting for pending navigations...
+[1703744881.544][INFO]: Done waiting for pending navigations. Status: ok
+[1703744881.547][INFO]: Waiting for pending navigations...
+[1703744881.548][INFO]: Done waiting for pending navigations. Status: ok
+[1703744881.548][INFO]: [3d77375218d99c902314e178a79bcf81] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"body > form > table > tbody > tr:nth-child(4) > td:nth-child(2) > input[type=text]"}
+  (Session info: chrome=120.0.6099.130)
+[1703744881.758][INFO]: [3d77375218d99c902314e178a79bcf81] COMMAND FindElement {
+   "using": "css selector",
+   "value": "body > form > table > tbody > tr:nth-child(4) > td:nth-child(2) > input[type=text]"
+}
+[1703744881.758][INFO]: Waiting for pending navigations...
+[1703744881.759][INFO]: Done waiting for pending navigations. Status: ok
+[1703744881.762][INFO]: Waiting for pending navigations...
+[1703744881.762][INFO]: Done waiting for pending navigations. Status: ok
+[1703744881.762][INFO]: [3d77375218d99c902314e178a79bcf81] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"body > form > table > tbody > tr:nth-child(4) > td:nth-child(2) > input[type=text]"}
+  (Session info: chrome=120.0.6099.130)
+[1703744881.975][INFO]: [3d77375218d99c902314e178a79bcf81] COMMAND FindElement {
+   "using": "css selector",
+   "value": "body > form > table > tbody > tr:nth-child(4) > td:nth-child(2) > input[type=text]"
+}
+[1703744881.975][INFO]: Waiting for pending navigations...
+[1703744881.976][INFO]: Done waiting for pending navigations. Status: ok
+[1703744881.980][INFO]: Waiting for pending navigations...
+[1703744881.980][INFO]: Done waiting for pending navigations. Status: ok
+[1703744881.980][INFO]: [3d77375218d99c902314e178a79bcf81] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"body > form > table > tbody > tr:nth-child(4) > td:nth-child(2) > input[type=text]"}
+  (Session info: chrome=120.0.6099.130)
+[1703744882.189][INFO]: [3d77375218d99c902314e178a79bcf81] COMMAND FindElement {
+   "using": "css selector",
+   "value": "body > form > table > tbody > tr:nth-child(4) > td:nth-child(2) > input[type=text]"
+}
+[1703744882.189][INFO]: Waiting for pending navigations...
+[1703744882.189][INFO]: Done waiting for pending navigations. Status: ok
+[1703744882.193][INFO]: Waiting for pending navigations...
+[1703744882.193][INFO]: Done waiting for pending navigations. Status: ok
+[1703744882.194][INFO]: [3d77375218d99c902314e178a79bcf81] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"body > form > table > tbody > tr:nth-child(4) > td:nth-child(2) > input[type=text]"}
+  (Session info: chrome=120.0.6099.130)
+[1703744882.408][INFO]: [3d77375218d99c902314e178a79bcf81] COMMAND FindElement {
+   "using": "css selector",
+   "value": "body > form > table > tbody > tr:nth-child(4) > td:nth-child(2) > input[type=text]"
+}
+[1703744882.408][INFO]: Waiting for pending navigations...
+[1703744882.408][INFO]: Done waiting for pending navigations. Status: ok
+[1703744882.413][INFO]: Waiting for pending navigations...
+[1703744882.413][INFO]: Done waiting for pending navigations. Status: ok
+[1703744882.413][INFO]: [3d77375218d99c902314e178a79bcf81] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"body > form > table > tbody > tr:nth-child(4) > td:nth-child(2) > input[type=text]"}
+  (Session info: chrome=120.0.6099.130)
+[1703744882.625][INFO]: [3d77375218d99c902314e178a79bcf81] COMMAND FindElement {
+   "using": "css selector",
+   "value": "body > form > table > tbody > tr:nth-child(4) > td:nth-child(2) > input[type=text]"
+}
+[1703744882.625][INFO]: Waiting for pending navigations...
+[1703744882.626][INFO]: Done waiting for pending navigations. Status: ok
+[1703744882.630][INFO]: Waiting for pending navigations...
+[1703744882.630][INFO]: Done waiting for pending navigations. Status: ok
+[1703744882.630][INFO]: [3d77375218d99c902314e178a79bcf81] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"body > form > table > tbody > tr:nth-child(4) > td:nth-child(2) > input[type=text]"}
+  (Session info: chrome=120.0.6099.130)
+[1703744882.842][INFO]: [3d77375218d99c902314e178a79bcf81] COMMAND ExecuteScript {
+   "args": [  ],
+   "script": "var source = document.documentElement.outerHTML; \nif (!source) { source = new XMLSerializer().serializeToString(document); }\nreturn source;"
+}
+[1703744882.842][INFO]: Waiting for pending navigations...
+[1703744882.842][INFO]: Done waiting for pending navigations. Status: ok
+[1703744882.844][INFO]: Waiting for pending navigations...
+[1703744882.845][INFO]: Done waiting for pending navigations. Status: ok
+[1703744882.845][INFO]: [3d77375218d99c902314e178a79bcf81] RESPONSE ExecuteScript "\u003Chtml>\u003Chead>\u003Ctitle>Web Tours\u003C/title>\n   \u003C!-- Frame Set -->\n   \u003C/head>\u003Cframeset cols=\"160,*\" border=\"1\" frameborder=\"1\">\n      \u003C!-- Navigation Frame -->\n      \u003Cframe src=\"nav.pl?in=home\" name=\"navba..."
+[1703744882.847][INFO]: [3d77375218d99c902314e178a79bcf81] COMMAND Screenshot {
+}
+[1703744882.847][INFO]: Waiting for pending navigations...
+[1703744882.848][INFO]: Done waiting for pending navigations. Status: ok
+[1703744882.920][INFO]: Waiting for pending navigations...
+[1703744882.921][INFO]: Done waiting for pending navigations. Status: ok
+[1703744882.921][INFO]: [3d77375218d99c902314e178a79bcf81] RESPONSE Screenshot "iVBORw0KGgoAAAANSUhEUgAABUYAAAKiCAYAAAAaMwZ7AAAAAXNSR0IArs4c6QAAIABJREFUeJzs3X9UnOWB9/+PpqlN0kBTnWUnimBK0mCojYygpYobTVawmYeCh2r3xGa7m5IcNgZzZImrX+paVh+l9KGxLI00u62ax2p5BCmpwU2qW3RRiWBqUaxiMgSTkR01h..."

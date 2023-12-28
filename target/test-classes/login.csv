@@ -1,0 +1,9 @@
+username,password,expected
+forerunner,Aa123456!,true
+,Aa123456!,false
+abcdefghijklmn,Aa123456!,false
+abcd123,Aa123456!,false
+jojo,Aa123456!,false
+forerunner,,false
+forerunner,Aa123456!789100,false
+forerunner,Aa123456,false
